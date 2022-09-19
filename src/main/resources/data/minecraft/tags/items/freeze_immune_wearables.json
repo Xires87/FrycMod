@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "frycmod:bone_boots",
+    "frycmod:bone_leggings",
+    "frycmod:bone_chestplate",
+    "frycmod:bone_helmet",
+    "frycmod:wither_boots",
+    "frycmod:wither_leggings",
+    "frycmod:wither_chestplate",
+    "frycmod:wither_helmet",
+    "frycmod:warden_boots",
+    "frycmod:warden_leggings",
+    "frycmod:warden_chestplate",
+    "frycmod:warden_helmet"
+  ]
+}

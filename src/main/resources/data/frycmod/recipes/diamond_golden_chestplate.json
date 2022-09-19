@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "base": {
+    "item": "frycmod:golden_chestplate"
+  },
+  "result": {
+    "item": "frycmod:diamond_golden_chestplate"
+  }
+}

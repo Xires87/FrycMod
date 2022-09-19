@@ -1,0 +1,75 @@
+{
+  "parent": "frycmod:crafting/iron_workshop",
+  "criteria": {
+    "diamond_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frycmod:obszczany_helm"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frycmod:obszczana_klata"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frycmod:obszczane_spodnie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frycmod:obszczane_buty"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description":
+      "Greetings from David",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "frycmod:obszczana_klata",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title":
+      "???"
+  },
+  "requirements": [
+    [
+      "diamond_helmet",
+      "diamond_chestplate",
+      "diamond_leggings",
+      "diamond_boots"
+    ]
+  ]
+}

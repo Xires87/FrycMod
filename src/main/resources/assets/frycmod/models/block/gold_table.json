@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "frycmod:block/gold_table_front",
+    "north": "frycmod:block/gold_table_front",
+    "south": "frycmod:block/gold_table_front",
+    "east": "frycmod:block/gold_table_side",
+    "west": "frycmod:block/gold_table_side",
+    "up": "frycmod:block/gold_table_top",
+    "down": "frycmod:block/gold_table_bottom"
+  }
+}

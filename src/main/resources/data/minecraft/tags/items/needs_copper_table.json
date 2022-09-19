@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "frycmod:copper_hammer",
+    "frycmod:copper_pickaxe",
+    "frycmod:copper_axe",
+    "frycmod:copper_shovel",
+    "frycmod:copper_hoe",
+    "frycmod:copper_sword",
+    "frycmod:copper_helmet",
+    "frycmod:copper_chestplate",
+    "frycmod:copper_leggings",
+    "frycmod:copper_boots"
+  ]
+}

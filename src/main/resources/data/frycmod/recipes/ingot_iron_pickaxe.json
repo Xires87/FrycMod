@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:gold_ingot"
+  },
+  "base": {
+    "item": "frycmod:nugget_iron_pickaxe"
+  },
+  "result": {
+    "item": "frycmod:ingot_iron_pickaxe"
+  }
+}

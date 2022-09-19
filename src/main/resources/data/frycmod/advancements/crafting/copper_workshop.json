@@ -1,0 +1,33 @@
+{
+  "parent": "frycmod:crafting/copper_ingot",
+  "criteria": {
+    "iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frycmod:copper_table"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "You have to stand near smithing table to craft tools and armor!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "frycmod:copper_table"
+    },
+    "show_toast": true,
+    "title": "Copper Workshop"
+  },
+  "requirements": [
+    [
+      "iron_pickaxe"
+    ]
+  ]
+}

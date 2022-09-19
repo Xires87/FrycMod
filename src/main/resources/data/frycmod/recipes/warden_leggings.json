@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "frycmod:wither_leggings"
+    },
+    "X": {
+      "item": "frycmod:ancient_remains"
+    }
+  },
+  "result": {
+    "item": "frycmod:warden_leggings"
+  }
+}

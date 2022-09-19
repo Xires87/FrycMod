@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "base": {
+    "item": "frycmod:nugget_copper_chestplate"
+  },
+  "result": {
+    "item": "frycmod:ingot_copper_chestplate"
+  }
+}

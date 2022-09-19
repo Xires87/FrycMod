@@ -1,0 +1,33 @@
+{
+  "parent": "frycmod:other/honey",
+  "criteria": {
+    "iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frycmod:clover"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a Four Leaf Clover",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "frycmod:clover"
+    },
+    "show_toast": true,
+    "title": "Lucky"
+  },
+  "requirements": [
+    [
+      "iron_pickaxe"
+    ]
+  ]
+}

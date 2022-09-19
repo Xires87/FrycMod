@@ -1,0 +1,36 @@
+{
+  "parent": "frycmod:other/wither_bone",
+  "criteria": {
+    "netherite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frycmod:ancient_remains"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description":
+      "Find Ancient Remains in Deep Dark",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "frycmod:ancient_remains",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title":
+      "Creepy"
+  },
+  "requirements": [
+    [
+      "netherite_armor"
+    ]
+  ]
+}

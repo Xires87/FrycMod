@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "frycmod:block/iron_table_front",
+    "north": "frycmod:block/iron_table_front",
+    "south": "frycmod:block/iron_table_front",
+    "east": "frycmod:block/iron_table_side",
+    "west": "frycmod:block/iron_table_side",
+    "up": "frycmod:block/iron_table_top",
+    "down": "frycmod:block/iron_table_bottom"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:dandelion"
+  },
+  "base": {
+    "item": "frycmod:nugget_iron_boots"
+  },
+  "result": {
+    "item": "frycmod:obszczane_buty"
+  }
+}

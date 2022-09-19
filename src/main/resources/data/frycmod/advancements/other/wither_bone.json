@@ -1,0 +1,33 @@
+{
+  "parent": "frycmod:other/honey",
+  "criteria": {
+    "iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frycmod:wither_bone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a Wither Bone",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "frycmod:wither_bone"
+    },
+    "show_toast": true,
+    "title": "Black Bones"
+  },
+  "requirements": [
+    [
+      "iron_pickaxe"
+    ]
+  ]
+}

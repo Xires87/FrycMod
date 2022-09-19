@@ -1,0 +1,33 @@
+{
+  "parent": "frycmod:other/bleed",
+  "criteria": {
+    "iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frycmod:bandage"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft a bandage",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "frycmod:bandage"
+    },
+    "show_toast": true,
+    "title": "First Aid"
+  },
+  "requirements": [
+    [
+      "iron_pickaxe"
+    ]
+  ]
+}

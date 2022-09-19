@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "frycmod:golden_hammer",
+    "frycmod:golden_pickaxe",
+    "frycmod:golden_axe",
+    "frycmod:golden_shovel",
+    "frycmod:golden_hoe",
+    "frycmod:golden_sword",
+    "frycmod:golden_helmet",
+    "frycmod:golden_chestplate",
+    "frycmod:golden_leggings",
+    "frycmod:golden_boots"
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "item.minecraft.golden_helmet": "Shiny Golden Helmet",
+  "item.minecraft.golden_chestplate": "Shiny Golden Chestplate",
+  "item.minecraft.golden_leggings": "Shiny Golden Leggings",
+  "item.minecraft.golden_boots": "Shiny Golden Boots",
+  "item.minecraft.golden_axe": "Shiny Golden Axe",
+  "item.minecraft.golden_pickaxe": "Shiny Golden Pickaxe",
+  "item.minecraft.golden_sword": "Shiny Golden Sword",
+  "item.minecraft.golden_hoe": "Shiny Golden Hoe",
+  "item.minecraft.golden_shovel": "Shiny Golden Shovel",
+
+  "item.frycmod.copper_pickaxe": "Copper Pickaxe",
+  "item.frycmod.copper_axe": "Copper Axe",
+  "item.frycmod.copper_sword": "Copper Sword",
+  "item.frycmod.copper_shovel": "Copper Shovel",
+  "item.frycmod.copper_hoe": "Copper Hoe",
+  "item.frycmod.copper_hammer": "Copper Hammer",
+
+  "item.frycmod.nugget_copper_pickaxe": "Reinforced Copper Pickaxe",
+  "item.frycmod.ingot_copper_pickaxe": "Upgraded Copper Pickaxe",
+  "item.frycmod.nugget_copper_axe": "Reinforced Copper Axe",
+  "item.frycmod.ingot_copper_axe": "Upgraded Copper Axe",
+  "item.frycmod.nugget_copper_sword": "Reinforced Copper Sword",
+  "item.frycmod.ingot_copper_sword": "Upgraded Copper Sword",
+  "item.frycmod.nugget_copper_shovel": "Reinforced Copper Shovel",
+  "item.frycmod.ingot_copper_shovel": "Upgraded Copper Shovel",
+  "item.frycmod.nugget_copper_hoe": "Reinforced Copper Hoe",
+  "item.frycmod.ingot_copper_hoe": "Upgraded Copper Hoe",
+  "item.frycmod.nugget_copper_hammer": "Reinforced Copper Hammer",
+  "item.frycmod.ingot_copper_hammer": "Upgraded Copper Hammer",
+
+  "item.frycmod.copper_helmet": "Copper Helmet",
+  "item.frycmod.copper_chestplate": "Copper Chestplate",
+  "item.frycmod.copper_leggings": "Copper Leggings",
+  "item.frycmod.copper_boots": "Copper Boots",
+
+  "item.frycmod.nugget_copper_helmet": "Reinforced Copper Helmet",
+  "item.frycmod.ingot_copper_helmet": "Upgraded Copper Helmet",
+  "item.frycmod.nugget_copper_chestplate": "Reinforced Copper Chestplate",
+  "item.frycmod.ingot_copper_chestplate": "Upgraded Copper Chestplate",
+  "item.frycmod.nugget_copper_leggings": "Reinforced Copper Leggings",
+  "item.frycmod.ingot_copper_leggings": "Upgraded Copper Leggings",
+  "item.frycmod.nugget_copper_boots": "Reinforced Copper Boots",
+  "item.frycmod.ingot_copper_boots": "Upgraded Copper Boots",
+
+  "item.frycmod.iron_hammer": "Iron Hammer",
+
+  "item.frycmod.nugget_iron_pickaxe": "Reinforced Iron Pickaxe",
+  "item.frycmod.nugget_iron_axe": "Reinforced Iron Axe",
+  "item.frycmod.nugget_iron_sword": "Reinforced Iron Sword",
+  "item.frycmod.nugget_iron_shovel": "Reinforced Iron Shovel",
+  "item.frycmod.nugget_iron_hoe": "Reinforced Iron Hoe",
+  "item.frycmod.nugget_iron_hammer": "Reinforced Iron Hammer",
+
+  "item.frycmod.ingot_iron_pickaxe": "Upgraded Iron Pickaxe",
+  "item.frycmod.ingot_iron_axe": "Upgraded Iron Axe",
+  "item.frycmod.ingot_iron_sword": "Upgraded Iron Sword",
+  "item.frycmod.ingot_iron_shovel": "Upgraded Iron Shovel",
+  "item.frycmod.ingot_iron_hoe": "Upgraded Iron Hoe",
+  "item.frycmod.ingot_iron_hammer": "Upgraded Iron Hammer",
+
+  "item.frycmod.nugget_iron_helmet": "Reinforced Iron Helmet",
+  "item.frycmod.ingot_iron_helmet": "Upgraded Iron Helmet",
+  "item.frycmod.obszczany_helm": "Obszczany Heum",
+  "item.frycmod.nugget_iron_chestplate": "Reinforced Iron Chestplate",
+  "item.frycmod.ingot_iron_chestplate": "Upgraded Iron Chestplate",
+  "item.frycmod.obszczana_klata": "Obszczana Zbroja",
+  "item.frycmod.nugget_iron_leggings": "Reinforced Iron Leggings",
+  "item.frycmod.ingot_iron_leggings": "Upgraded Iron Leggings",
+  "item.frycmod.obszczane_spodnie": "Obszczane Spodnie",
+  "item.frycmod.nugget_iron_boots": "Reinforced Iron Boots",
+  "item.frycmod.ingot_iron_boots": "Upgraded Iron Boots",
+  "item.frycmod.obszczane_buty": "Obszczane Buty",
+
+  "item.frycmod.golden_pickaxe": "Golden Pickaxe",
+  "item.frycmod.golden_axe": "Golden Axe",
+  "item.frycmod.golden_sword": "Golden Sword",
+  "item.frycmod.golden_shovel": "Golden Shovel",
+  "item.frycmod.golden_hoe": "Golden Hoe",
+  "item.frycmod.golden_hammer": "Golden Hammer",
+  "item.frycmod.golden_helmet": "Golden Helmet",
+  "item.frycmod.golden_chestplate": "Golden Chestplate",
+  "item.frycmod.golden_leggings": "Golden Leggings",
+  "item.frycmod.golden_boots": "Golden Boots",
+
+  "item.frycmod.diamond_hammer": "Diamond Hammer",
+  "item.frycmod.netherite_hammer": "Netherite Hammer",
+
+
+  "block.frycmod.copper_table": "Copper Smithing Table",
+  "block.frycmod.iron_table": "Iron Smithing Table",
+  "block.frycmod.gold_table": "Golden Smithing Table",
+  "block.frycmod.diamond_table": "Diamond Smithing Table",
+
+
+  "item.frycmod.bone_helmet": "Bone Helmet",
+  "item.frycmod.bone_chestplate": "Bone Chestplate",
+  "item.frycmod.bone_leggings": "Bone Leggings",
+  "item.frycmod.bone_boots": "Bone Boots",
+
+  "item.frycmod.wither_helmet": "Wither Bone Helmet",
+  "item.frycmod.wither_chestplate": "Wither Bone Chestplate",
+  "item.frycmod.wither_leggings": "Wither Bone Leggings",
+  "item.frycmod.wither_boots": "Wither Bone Boots",
+
+  "item.frycmod.warden_helmet": "Ancient Helmet",
+  "item.frycmod.warden_chestplate": "Ancient Chestplate",
+  "item.frycmod.warden_leggings": "Ancient Leggings",
+  "item.frycmod.warden_boots": "Ancient Boots",
+
+  "item.frycmod.ancient_remains": "Ancient Remains",
+  "block.frycmod.ancient_fossil": "Ancient Fossil",
+
+  "item.frycmod.magic_scroll_tool": "Magic Scroll (Tool)",
+  "item.frycmod.magic_scroll_armor": "Magic Scroll (Armor)",
+  "item.frycmod.magic_scroll_weapon": "Magic Scroll (Weapon)",
+
+
+  "item.frycmod.diamond_golden_pickaxe": "Reinforced Golden Pickaxe",
+  "item.frycmod.diamond_golden_axe": "Reinforced Golden Axe",
+  "item.frycmod.diamond_golden_sword": "Reinforced Golden Sword",
+  "item.frycmod.diamond_golden_shovel": "Reinforced Golden Shovel",
+  "item.frycmod.diamond_golden_hoe": "Reinforced Golden Hoe",
+  "item.frycmod.diamond_golden_hammer": "Reinforced Golden Hammer",
+
+  "item.frycmod.diamond_golden_helmet": "Reinforced Golden Helmet",
+  "item.frycmod.diamond_golden_chestplate": "Reinforced Golden Chestplate",
+  "item.frycmod.diamond_golden_leggings": "Reinforced Golden Leggings",
+  "item.frycmod.diamond_golden_boots": "Reinforced Golden Boots",
+
+  "effect.frycmod.bleed": "Bleed",
+  "effect.frycmod.bleedout": "Bleed out",
+  "effect.frycmod.health_loss": "Health Loss",
+  "effect.frycmod.immunity": "Immunity",
+
+  "item.frycmod.bandage": "Bandage",
+  "item.frycmod.honey_bandage": "Honey Bandage",
+  "item.frycmod.sticky_bandage": "Sticky Bandage",
+
+  "item.minecraft.potion.effect.wither_potion": "Potion of Decay",
+  "item.minecraft.splash_potion.effect.wither_potion": "Splash Potion of Decay",
+  "item.minecraft.lingering_potion.effect.wither_potion": "Lingering Potion of Decay",
+
+  "item.minecraft.potion.effect.long_wither_potion": "Potion of Decay",
+  "item.minecraft.splash_potion.effect.long_wither_potion": "Splash Potion of Decay",
+  "item.minecraft.lingering_potion.effect.long_wither_potion": "Lingering Potion of Decay",
+
+  "item.minecraft.potion.effect.strong_wither_potion": "Potion of Decay",
+  "item.minecraft.splash_potion.effect.strong_wither_potion": "Splash Potion of Decay",
+  "item.minecraft.lingering_potion.effect.strong_wither_potion": "Lingering Potion of Decay",
+
+  "item.minecraft.potion.effect.hp_boost_potion": "Potion of Vitality",
+  "item.minecraft.splash_potion.effect.hp_boost_potion": "Splash Potion of Vitality",
+  "item.minecraft.lingering_potion.effect.hp_boost_potion": "Lingering Potion of Vitality",
+
+  "item.minecraft.potion.effect.long_hp_boost_potion": "Potion of Vitality",
+  "item.minecraft.splash_potion.effect.long_hp_boost_potion": "Splash Potion of Vitality",
+  "item.minecraft.lingering_potion.effect.long_hp_boost_potion": "Lingering Potion of Vitality",
+
+  "item.minecraft.potion.effect.strong_hp_boost_potion": "Potion of Vitality",
+  "item.minecraft.splash_potion.effect.strong_hp_boost_potion": "Splash Potion of Vitality",
+  "item.minecraft.lingering_potion.effect.strong_hp_boost_potion": "Lingering Potion of Vitality",
+
+  "item.minecraft.tipped_arrow.effect.strong_hp_boost_potion": "Arrow of Vitality",
+  "item.minecraft.tipped_arrow.effect.hp_boost_potion": "Arrow of Vitality",
+  "item.minecraft.tipped_arrow.effect.long_hp_boost_potion": "Arrow of Vitality",
+
+  "item.minecraft.tipped_arrow.effect.strong_wither_potion": "Arrow of Decay",
+  "item.minecraft.tipped_arrow.effect.long_wither_potion": "Arrow of Decay",
+  "item.minecraft.tipped_arrow.effect.wither_potion": "Arrow of Decay",
+
+  "item.frycmod.wither_bone": "Wither Skeleton Bone",
+  "item.frycmod.red_crystals": "Red Prismarine Crystals",
+  "item.frycmod.clover": "Four Leaf Clover",
+
+  "enchantment.frycmod.ender_curse_enchantment": "Curse of Ender",
+  "enchantment.frycmod.flames_curse_enchantment": "Curse of Flames",
+  "enchantment.frycmod.absorption_enchantment": "Absorption",
+  "effect.frycmod.ender_curse": "Ender Curse"
+}

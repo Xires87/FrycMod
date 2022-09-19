@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "frycmod:item/wither_boots",
+    "layer1": "frycmod:item/wither_boots_overlay"
+  }
+}

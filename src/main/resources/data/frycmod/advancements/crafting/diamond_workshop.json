@@ -1,0 +1,33 @@
+{
+  "parent": "frycmod:crafting/gold_workshop",
+  "criteria": {
+    "iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frycmod:diamond_table"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Place it near Crafting Table to craft Diamond items!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "frycmod:diamond_table"
+    },
+    "show_toast": true,
+    "title": "Diamond Workshop"
+  },
+  "requirements": [
+    [
+      "iron_pickaxe"
+    ]
+  ]
+}

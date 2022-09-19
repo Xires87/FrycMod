@@ -1,0 +1,51 @@
+{
+  "parent": "frycmod:other/wither_bone",
+  "criteria": {
+    "netherite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frycmod:wither_helmet"
+            ]
+          },
+          {
+            "items": [
+              "frycmod:wither_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "frycmod:wither_leggings"
+            ]
+          },
+          {
+            "items": [
+              "frycmod:wither_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description":
+      "Get a full suit of Wither Armor",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "frycmod:wither_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title":
+      "Immune"
+  },
+  "requirements": [
+    [
+      "netherite_armor"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "frycmod:other/wither_bone",
+  "criteria": {
+    "iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "frycmod:red_crystals"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain Red Prismarine Crystals",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "frycmod:red_crystals"
+    },
+    "show_toast": true,
+    "title": "Temple in depths of the ocean"
+  },
+  "requirements": [
+    [
+      "iron_pickaxe"
+    ]
+  ]
+}
