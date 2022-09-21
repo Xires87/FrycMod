@@ -108,7 +108,13 @@
   "item.frycmod.warden_leggings": "Ancient Leggings",
   "item.frycmod.warden_boots": "Ancient Boots",
 
+  "item.frycmod.echo_warden_helmet": "Undead Helmet",
+  "item.frycmod.echo_warden_chestplate": "Undead Chestplate",
+  "item.frycmod.echo_warden_leggings": "Undead Leggings",
+  "item.frycmod.echo_warden_boots": "Undead Boots",
+
   "item.frycmod.ancient_remains": "Ancient Remains",
+  "item.frycmod.echo_ancient_remains": "Living Remains",
   "block.frycmod.ancient_fossil": "Ancient Fossil",
 
   "item.frycmod.magic_scroll_tool": "Magic Scroll (Tool)",

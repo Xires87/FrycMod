@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "frycmod:ancient_remains_blasting"
+        "recipe": "frycmod:ancient_remains_smelting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "frycmod:ancient_remains_blasting"
+      "frycmod:ancient_remains_smelting"
     ]
   }
 }

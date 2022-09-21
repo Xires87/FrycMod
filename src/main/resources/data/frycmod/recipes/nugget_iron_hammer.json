@@ -4,7 +4,7 @@
     "item": "minecraft:gold_nugget"
   },
   "base": {
-    "item": "minecraft:iron_hammer"
+    "item": "frycmod:iron_hammer"
   },
   "result": {
     "item": "frycmod:nugget_iron_hammer"

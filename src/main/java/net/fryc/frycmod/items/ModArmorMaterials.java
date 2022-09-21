@@ -21,6 +21,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     SZCZYNY("szczyny", 17, new int[]{2, 5, 6, 2}, 13, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.35f, 0.0f, () -> Ingredient.ofItems(Items.IRON_INGOT)),
     WITHER_BONE("wither_bone", 21, new int[]{2,4,6,2}, 20 , SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 1f, 0.0f, () -> Ingredient.ofItems(ModItems.WITHER_BONE)),
     WARDEN_BONE("warden_bone", 32, new int[]{2,5,7,3}, 25 , SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.0f, 0.05f, () -> Ingredient.ofItems(ModItems.ANCIENT_REMAINS)),
+    ECHO_WARDEN_BONE("echo_warden_bone", 32, new int[]{2,5,7,3}, 30 , SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.0f, 0.1f, () -> Ingredient.ofItems(ModItems.ECHO_ANCIENT_REMAINS)),
     BONE("bone", 7, new int[]{1,2,3,2}, 20 , SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.5f, 0.0f, () -> Ingredient.ofItems(Items.BONE));
 
 

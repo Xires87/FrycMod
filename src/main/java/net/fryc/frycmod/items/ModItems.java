@@ -346,19 +346,19 @@ public class ModItems {
 
     public static final Item WITHER_HELMET = registerItem("wither_helmet" ,
             new ModArmorItems(ModArmorMaterials.WITHER_BONE , EquipmentSlot.HEAD ,
-                    new FabricItemSettings().group(ItemGroup.COMBAT)));
+                    new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
 
     public static final Item WITHER_CHESTPLATE = registerItem("wither_chestplate" ,
             new ModArmorItems(ModArmorMaterials.WITHER_BONE , EquipmentSlot.CHEST ,
-                    new FabricItemSettings().group(ItemGroup.COMBAT)));
+                    new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
 
     public static final Item WITHER_LEGGINGS = registerItem("wither_leggings" ,
             new ModArmorItems(ModArmorMaterials.WITHER_BONE , EquipmentSlot.LEGS ,
-                    new FabricItemSettings().group(ItemGroup.COMBAT)));
+                    new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
 
     public static final Item WITHER_BOOTS = registerItem("wither_boots" ,
             new ModArmorItems(ModArmorMaterials.WITHER_BONE , EquipmentSlot.FEET ,
-                    new FabricItemSettings().group(ItemGroup.COMBAT)));
+                    new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
 
     public static final Item WARDEN_HELMET = registerItem("warden_helmet" ,
             new ModArmorItems(ModArmorMaterials.WARDEN_BONE , EquipmentSlot.HEAD ,
@@ -374,6 +374,22 @@ public class ModItems {
 
     public static final Item WARDEN_BOOTS = registerItem("warden_boots" ,
             new ModArmorItems(ModArmorMaterials.WARDEN_BONE , EquipmentSlot.FEET ,
+                    new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
+
+    public static final Item ECHO_WARDEN_HELMET = registerItem("echo_warden_helmet" ,
+            new ModArmorItems(ModArmorMaterials.ECHO_WARDEN_BONE , EquipmentSlot.HEAD ,
+                    new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
+
+    public static final Item ECHO_WARDEN_CHESTPLATE = registerItem("echo_warden_chestplate" ,
+            new ModArmorItems(ModArmorMaterials.ECHO_WARDEN_BONE , EquipmentSlot.CHEST ,
+                    new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
+
+    public static final Item ECHO_WARDEN_LEGGINGS = registerItem("echo_warden_leggings" ,
+            new ModArmorItems(ModArmorMaterials.ECHO_WARDEN_BONE , EquipmentSlot.LEGS ,
+                    new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
+
+    public static final Item ECHO_WARDEN_BOOTS = registerItem("echo_warden_boots" ,
+            new ModArmorItems(ModArmorMaterials.ECHO_WARDEN_BONE , EquipmentSlot.FEET ,
                     new FabricItemSettings().group(ItemGroup.COMBAT).fireproof()));
 
 
@@ -397,7 +413,7 @@ public class ModItems {
 
     //other----------------------------------------------------------------------------------------------
     public static final Item WITHER_BONE = registerItem("wither_bone" ,
-            new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.BREWING)));
+            new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.BREWING).fireproof()));
 
     public static final Item RED_CRYSTALS = registerItem("red_crystals" ,
             new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.BREWING)));
@@ -406,6 +422,9 @@ public class ModItems {
             new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.BREWING)));
 
     public static final Item ANCIENT_REMAINS = registerItem("ancient_remains" ,
+            new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.MISC).fireproof()));
+
+    public static final Item ECHO_ANCIENT_REMAINS = registerItem("echo_ancient_remains" ,
             new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.MISC).fireproof()));
 
 

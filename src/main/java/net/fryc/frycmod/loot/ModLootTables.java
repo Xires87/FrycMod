@@ -1,7 +1,6 @@
 package net.fryc.frycmod.loot;
 
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
-import net.fryc.frycmod.blocks.ModBlocks;
 import net.fryc.frycmod.items.ModItems;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
@@ -65,6 +64,17 @@ public class ModLootTables {
                         .conditionally(RandomChanceLootCondition.builder(1.0f))
                         .with(ItemEntry.builder(ModItems.ANCIENT_REMAINS))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0f, 4.0f)).build());
+                tableBuilder.pool(poolBuilder.build());
+            }
+        });
+
+        LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
+            if(WARDEN.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(1.0f))
+                        .with(ItemEntry.builder(ModItems.ECHO_ANCIENT_REMAINS))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 3.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
         });

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "coal",
+  "ingredient": {
+    "item": "frycmod:ancient_fossil"
+  },
+  "result": "frycmod:ancient_remains"
+}

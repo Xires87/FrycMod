@@ -4,7 +4,7 @@
     "item": "minecraft:iron_nugget"
   },
   "base": {
-    "item": "frycmod:copper_axe"
+    "item": "frycmod:copper_hammer"
   },
   "result": {
     "item": "frycmod:nugget_copper_hammer"

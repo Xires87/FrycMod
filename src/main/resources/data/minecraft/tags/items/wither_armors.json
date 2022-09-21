@@ -8,6 +8,10 @@
     "frycmod:warden_boots",
     "frycmod:warden_leggings",
     "frycmod:warden_chestplate",
-    "frycmod:warden_helmet"
+    "frycmod:warden_helmet",
+    "frycmod:echo_warden_boots",
+    "frycmod:echo_warden_leggings",
+    "frycmod:echo_warden_chestplate",
+    "frycmod:echo_warden_helmet"
   ]
 }

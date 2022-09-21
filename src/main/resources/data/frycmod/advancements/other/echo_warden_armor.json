@@ -1,12 +1,12 @@
 {
-  "parent": "frycmod:other/warden_bone",
+  "parent": "frycmod:other/echo_warden_bone",
   "criteria": {
     "iron_boots": {
       "conditions": {
         "items": [
           {
             "items": [
-              "frycmod:warden_boots"
+              "frycmod:echo_warden_boots"
             ]
           }
         ]
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "frycmod:warden_chestplate"
+              "frycmod:echo_warden_chestplate"
             ]
           }
         ]
@@ -30,7 +30,7 @@
         "items": [
           {
             "items": [
-              "frycmod:warden_helmet"
+              "frycmod:echo_warden_helmet"
             ]
           }
         ]
@@ -42,7 +42,7 @@
         "items": [
           {
             "items": [
-              "frycmod:warden_leggings"
+              "frycmod:echo_warden_leggings"
             ]
           }
         ]
@@ -53,16 +53,16 @@
   "display": {
     "announce_to_chat": true,
     "description":
-      "Get a piece of Ancient Armor",
-    "frame": "task",
+      "Upgrade Ancient Armor with Living Remains",
+    "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "frycmod:warden_chestplate",
+      "item": "frycmod:echo_warden_chestplate",
       "nbt": "{Damage:0}"
     },
     "show_toast": true,
     "title":
-      "Ancient Armor"
+      "Echo of the past"
   },
   "requirements": [
     [
@@ -71,5 +71,8 @@
       "iron_chestplate",
       "iron_helmet"
     ]
-  ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
 }

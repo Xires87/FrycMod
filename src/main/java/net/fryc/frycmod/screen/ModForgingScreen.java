@@ -52,9 +52,12 @@ public class ModForgingScreen<T extends ModForgingScreenHandler> extends Handled
         int j = (this.height - this.backgroundHeight) / 2;
         this.drawTexture(matrices, i, j, 0, 0, this.backgroundWidth, this.backgroundHeight);
         this.drawTexture(matrices, i + 59, j + 20, 0, this.backgroundHeight + (((ModForgingScreenHandler)this.handler).getSlot(0).hasStack() ? 0 : 16), 110, 16);
+        /* draws red X on arrow
         if ((((ModForgingScreenHandler)this.handler).getSlot(0).hasStack() || ((ModForgingScreenHandler)this.handler).getSlot(1).hasStack()) && !((ModForgingScreenHandler)this.handler).getSlot(2).hasStack()) {
             this.drawTexture(matrices, i + 99, j + 45, this.backgroundWidth, 0, 28, 21);
         }
+
+         */
 
     }
 

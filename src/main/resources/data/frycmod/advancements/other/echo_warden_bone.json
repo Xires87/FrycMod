@@ -1,12 +1,12 @@
 {
-  "parent": "frycmod:other/wither_bone",
+  "parent": "frycmod:other/warden_armor",
   "criteria": {
     "netherite_armor": {
       "conditions": {
         "items": [
           {
             "items": [
-              "frycmod:ancient_fossil"
+              "frycmod:echo_ancient_remains"
             ]
           }
         ]
@@ -17,16 +17,16 @@
   "display": {
     "announce_to_chat": true,
     "description":
-      "Mine Ancient Fossil in Deep Dark",
+      "Combine Ancient Remains with three Echo Shards",
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "frycmod:ancient_fossil",
+      "item": "frycmod:echo_ancient_remains",
       "nbt": "{Damage:0}"
     },
     "show_toast": true,
     "title":
-      "Archeologist"
+      "Filled with power"
   },
   "requirements": [
     [

@@ -17,7 +17,8 @@
     "HoneyBottleMixin",
     "MilkBucketMixin",
     "BrewingRecipeRegistryMixin",
-    "LivingEntityMixin"
+    "LivingEntityMixin",
+    "ArmorsMixin"
   ],
   "client": [
     "ExampleMixin"
