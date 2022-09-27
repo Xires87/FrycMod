@@ -6,6 +6,7 @@ import net.fryc.frycmod.effects.ModEffects;
 import net.fryc.frycmod.enchantments.ModEnchantments;
 import net.fryc.frycmod.items.ModItems;
 import net.fryc.frycmod.loot.ModLootTables;
+import net.fryc.frycmod.painting.ModPaintings;
 import net.fryc.frycmod.potions.ModPotions;
 import net.fryc.frycmod.screen.ModScreenHandlers;
 import net.fryc.frycmod.world.feature.ModConfiguredFeatures;
@@ -34,5 +35,7 @@ public class FrycMod implements ModInitializer {
 		ModItems.registerModItems();
 
 		ModEnchantments.registerModEnchantments();
+
+		ModPaintings.registerPaintings();
 	}
 }
