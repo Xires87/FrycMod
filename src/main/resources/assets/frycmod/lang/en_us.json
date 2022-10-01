@@ -182,5 +182,50 @@
   "enchantment.frycmod.ender_curse_enchantment": "Curse of Ender",
   "enchantment.frycmod.flames_curse_enchantment": "Curse of Flames",
   "enchantment.frycmod.absorption_enchantment": "Absorption",
-  "effect.frycmod.ender_curse": "Ender Curse"
+  "effect.frycmod.ender_curse": "Ender Curse",
+
+
+  "entity.frycmod.armored_spider": "Black Spider",
+  "entity.frycmod.undead_warrior": "Undead Warrior",
+  "entity.frycmod.forgotten": "Forgotten",
+
+  "item.frycmod.forgotten_spawn_egg": "Forgotten Spawn Egg",
+  "item.frycmod.undead_warrior_spawn_egg": "Undead Warrior Spawn Egg",
+  "item.frycmod.armored_spider_spawn_egg": "Black Spider Spawn Egg",
+
+
+  "gamerule.bleedoutKills": "Bleed out can kill",
+  "gamerule.bleedingStopsFoodHealing": "Bleeding stops food healing",
+  "gamerule.enableMeleeEffectUpgrading": "Melee attacks upgrade bleeding",
+  "gamerule.enableMeleeEffectUpgrading.description": "While bleeding, player get Bleed II with increased duration after getting damage from melee attack",
+  "gamerule.enableArrowEffectUpgrading": "Arrows upgrade bleeding",
+  "gamerule.enableArrowEffectUpgrading.description": "While bleeding, player get Bleed II with increased duration after getting damage from arrow",
+  "gamerule.enableDarknessAtLowHp": "Player gets darkness after taking damage at low HP",
+
+  "gamerule.meleeBleedLength": "Length of bleeding from melee attacks",
+  "gamerule.arrowBleedLength": "Length of bleeding from arrows",
+  "gamerule.healthLossLength": "Length of health loss from spider attacks",
+
+  "gamerule.overwriteToolTradeOffers": "Change trade offers for Toolsmith, Weaponsmith, Armorer and Cleric",
+  "gamerule.overwriteToolTradeOffers.description": "When turned off, these villagers use vanilla trade offers, which are overpowered with this mod",
+  "gamerule.overwriteLibrarianTradeOffers": "Change trade offers for Librarian",
+  "gamerule.overwriteLibrarianTradeOffers.description": "When turned off, Librarians sell enchanted books from first level (novice) and don't sell scrolls",
+
+  "gamerule.blockCopperRecipes": "Block copper recipes",
+  "gamerule.blockCopperRecipes.description": "When turned on, you have to stand near Copper Smithing Table to craft copper items",
+  "gamerule.blockIronRecipes": "Block iron recipes",
+  "gamerule.blockIronRecipes.description": "When turned on, you have to stand near Iron Smithing Table to craft iron items",
+  "gamerule.blockGoldenRecipes": "Block gold recipes",
+  "gamerule.blockGoldenRecipes.description": "When turned on, you have to stand near Golden Smithing Table to craft golden items",
+  "gamerule.blockDiamondRecipes": "Block diamond recipes",
+  "gamerule.blockDiamondRecipes.description": "When turned on, you have to stand near Diamond Smithing Table to craft diamond items",
+
+  "gamerule.zombieToForgottenConvertLevelY": "Convert zombies to forgotten under Y level:",
+  "gamerule.zombieToForgottenConvertLevelY.description": "Zombies have a chance to convert into stronger variant when they spawn below this Y level",
+
+  "gamerule.spiderToBlackSpiderConvertLevelY": "Convert spiders to black spiders under Y level:",
+  "gamerule.spiderToBlackSpiderConvertLevelY.description": "Spiders have a chance to convert into stronger variant when they spawn below this Y level",
+
+  "gamerule.skeletonToUndeadWarriorConvertLevelY": "Convert skeletons to undead warriors under Y level:",
+  "gamerule.skeletonToUndeadWarriorConvertLevelY.description": "Skeletons have a chance to convert into stronger variant when they spawn below this Y level"
 }

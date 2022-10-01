@@ -4,6 +4,9 @@ import net.fabricmc.api.ModInitializer;
 import net.fryc.frycmod.blocks.ModBlocks;
 import net.fryc.frycmod.effects.ModEffects;
 import net.fryc.frycmod.enchantments.ModEnchantments;
+import net.fryc.frycmod.entity.mobs.ModMobs;
+import net.fryc.frycmod.entity.mobs.eggs.ModSpawnEggs;
+import net.fryc.frycmod.gamerules.ModGameRules;
 import net.fryc.frycmod.items.ModItems;
 import net.fryc.frycmod.loot.ModLootTables;
 import net.fryc.frycmod.painting.ModPaintings;
@@ -27,15 +30,18 @@ public class FrycMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModScreenHandlers.registerAllScreenHandlers();
 
-		ModItems.registerModItems();
 		ModPotions.registerPotions();
 		ModLootTables.modifyLoot();
 
 		ModEffects.registerEffects();
-		ModItems.registerModItems();
 
 		ModEnchantments.registerModEnchantments();
 
 		ModPaintings.registerPaintings();
+
+		ModGameRules.registerGameRules();
+
+		ModMobs.registerModMobs();
+		ModSpawnEggs.registerSpawnEggs();
 	}
 }

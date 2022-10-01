@@ -18,7 +18,10 @@
     "MilkBucketMixin",
     "BrewingRecipeRegistryMixin",
     "LivingEntityMixin",
-    "ArmorsMixin"
+    "ArmorsMixin",
+    "ZombieConvertMixin",
+    "SkeletonConvertMixin",
+    "SpiderConvertMixin"
   ],
   "client": [
     "ExampleMixin"

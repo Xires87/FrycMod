@@ -1,6 +1,7 @@
 package net.fryc.frycmod.mixin;
 
 import net.fryc.frycmod.blocks.ModBlocks;
+import net.fryc.frycmod.gamerules.ModGameRules;
 import net.fryc.frycmod.tag.ModBlockTags;
 import net.fryc.frycmod.tag.ModItemTags;
 import net.minecraft.entity.player.PlayerEntity;
@@ -44,30 +45,30 @@ abstract class CraftingScreenHandlerMixin extends AbstractRecipeScreenHandler<Cr
             if(!gold){
                 if(!iron){
                     if(!copper){
-                        if(resultInventory.getStack(0).isIn(ModItemTags.NEEDS_COPPER_TABLE) ||
-                                resultInventory.getStack(0).isIn(ModItemTags.NEEDS_IRON_TABLE) ||
-                                resultInventory.getStack(0).isIn(ModItemTags.NEEDS_GOLDEN_TABLE) ||
-                                resultInventory.getStack(0).isIn(ModItemTags.NEEDS_DIAMOND_TABLE)){
+                        if((resultInventory.getStack(0).isIn(ModItemTags.NEEDS_COPPER_TABLE) && world.getGameRules().getBoolean(ModGameRules.BLOCK_COPPER_RECIPES)) ||
+                                (resultInventory.getStack(0).isIn(ModItemTags.NEEDS_IRON_TABLE) && world.getGameRules().getBoolean(ModGameRules.BLOCK_IRON_RECIPES)) ||
+                                (resultInventory.getStack(0).isIn(ModItemTags.NEEDS_GOLDEN_TABLE) && world.getGameRules().getBoolean(ModGameRules.BLOCK_GOLDEN_RECIPES)) ||
+                                (resultInventory.getStack(0).isIn(ModItemTags.NEEDS_DIAMOND_TABLE) && world.getGameRules().getBoolean(ModGameRules.BLOCK_DIAMOND_RECIPES))){
                             resultInventory.setStack(0, ItemStack.EMPTY);
                         }
                     }
                     else{
-                        if(resultInventory.getStack(0).isIn(ModItemTags.NEEDS_IRON_TABLE) ||
-                                resultInventory.getStack(0).isIn(ModItemTags.NEEDS_GOLDEN_TABLE) ||
-                                resultInventory.getStack(0).isIn(ModItemTags.NEEDS_DIAMOND_TABLE)){
+                        if((resultInventory.getStack(0).isIn(ModItemTags.NEEDS_IRON_TABLE) && world.getGameRules().getBoolean(ModGameRules.BLOCK_IRON_RECIPES)) ||
+                                (resultInventory.getStack(0).isIn(ModItemTags.NEEDS_GOLDEN_TABLE) && world.getGameRules().getBoolean(ModGameRules.BLOCK_GOLDEN_RECIPES)) ||
+                                (resultInventory.getStack(0).isIn(ModItemTags.NEEDS_DIAMOND_TABLE) && world.getGameRules().getBoolean(ModGameRules.BLOCK_DIAMOND_RECIPES))){
                             resultInventory.setStack(0, ItemStack.EMPTY);
                         }
                     }
                 }
                 else{
-                    if(resultInventory.getStack(0).isIn(ModItemTags.NEEDS_GOLDEN_TABLE) ||
-                            resultInventory.getStack(0).isIn(ModItemTags.NEEDS_DIAMOND_TABLE)){
+                    if((resultInventory.getStack(0).isIn(ModItemTags.NEEDS_GOLDEN_TABLE) && world.getGameRules().getBoolean(ModGameRules.BLOCK_GOLDEN_RECIPES)) ||
+                            (resultInventory.getStack(0).isIn(ModItemTags.NEEDS_DIAMOND_TABLE) && world.getGameRules().getBoolean(ModGameRules.BLOCK_DIAMOND_RECIPES))){
                         resultInventory.setStack(0, ItemStack.EMPTY);
                     }
                 }
             }
             else{
-                if(resultInventory.getStack(0).isIn(ModItemTags.NEEDS_DIAMOND_TABLE)){
+                if(resultInventory.getStack(0).isIn(ModItemTags.NEEDS_DIAMOND_TABLE) && world.getGameRules().getBoolean(ModGameRules.BLOCK_DIAMOND_RECIPES)){
                     resultInventory.setStack(0, ItemStack.EMPTY);
                 }
             }
