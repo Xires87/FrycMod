@@ -1,6 +1,7 @@
 # FrycMod
 This mod adds everything from my other mods + 3 new armors, new ore, scrolls and new curse enchantment 
 -----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 How to block recipes when Frycmod (or Hammers and Smithing) is installed:
 
 All you have to do is adding 1 - 4 json files to your mod (2 - 8 files if you want to block recipes for both Frycmod and Hammers and Smithing)
