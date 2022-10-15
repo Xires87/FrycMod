@@ -23,7 +23,8 @@ File content: 
   ]
 }
 ```
- You can also block vanilla recipes if you want 
+ You can also block vanilla recipes if you want
+ 
  Example (needs_diamond_table.json from Frycmod):
  ```json
  {
