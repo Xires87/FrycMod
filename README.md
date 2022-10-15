@@ -1,5 +1,5 @@
 # FrycMod
-This mod adds everything from my other mods + 3 new armors, new ore, scrolls and new curse enchantment 
+This mod adds everything from my other mods (except Sword Parry) + 3 new armors, new ore, scrolls and new curse enchantment 
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
 How to block recipes when Frycmod (or Hammers and Smithing) is installed:
@@ -23,7 +23,8 @@ File content: 
   ]
 }
 ```
- You can also block vanilla recipes if you want (needs_diamond_table.json from Frycmod):
+ You can also block vanilla recipes if you want 
+ Example (needs_diamond_table.json from Frycmod):
  ```json
  {
   "replace": false,
@@ -51,7 +52,7 @@ Path: resources/data/minecraft/tags/items/
 
 Note:
 
-Hammers and Smithing mod uses the same recipe blocking mechanic ,but uses different files.
+Hammers and Smithing mod uses the same recipe blocking mechanic, but uses different files.
 
 Frycmod uses "needs_N_table.json" , Hammers and Smithing uses "needs_N_smithing_table.json"
 
