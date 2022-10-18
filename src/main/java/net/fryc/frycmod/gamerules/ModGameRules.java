@@ -6,8 +6,6 @@ import net.minecraft.world.GameRules;
 
 public class ModGameRules {
 
-    public static GameRules.Key<GameRules.BooleanRule> OVERWRITE_TOOL_TRADE_OFFERS;
-    public static GameRules.Key<GameRules.BooleanRule> OVERWRITE_LIBRARIAN_TRADE_OFFERS;
     public static GameRules.Key<GameRules.BooleanRule> BLOCK_COPPER_RECIPES;
     public static GameRules.Key<GameRules.BooleanRule> BLOCK_IRON_RECIPES;
     public static GameRules.Key<GameRules.BooleanRule> BLOCK_GOLDEN_RECIPES;
@@ -27,9 +25,6 @@ public class ModGameRules {
     public static GameRules.Key<GameRules.IntRule> UNDEAD_WARRIOR_SPAWN_LEVEL;
     public static GameRules.Key<GameRules.IntRule> ARMORED_SPIDER_SPAWN_LEVEL;
     public static void registerGameRules(){
-        OVERWRITE_TOOL_TRADE_OFFERS = GameRuleRegistry.register("overwriteToolTradeOffers", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(true));
-        OVERWRITE_LIBRARIAN_TRADE_OFFERS = GameRuleRegistry.register("overwriteLibrarianTradeOffers", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(true));
-
         BLOCK_COPPER_RECIPES = GameRuleRegistry.register("blockCopperRecipes", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(true));
         BLOCK_IRON_RECIPES = GameRuleRegistry.register("blockIronRecipes", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(true));
         BLOCK_GOLDEN_RECIPES = GameRuleRegistry.register("blockGoldenRecipes", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(true));
