@@ -79,8 +79,8 @@ abstract class PlayerEntityMixin extends LivingEntity {
     }
 
     //Gives blindness if player has 1 hp or lower
-    @Inject(method = "isImmobile()Z", at = @At("HEAD"))
-    public void setBlindness(CallbackInfoReturnable<Boolean> ret){
+    @Inject(method = "tick()V", at = @At("TAIL"))
+    public void setBlindness(CallbackInfo info){
         PlayerEntity player = ((PlayerEntity) (Object) this);
         if(player.getHealth()<=1){
             if(player.hasStatusEffect(StatusEffects.BLINDNESS)){

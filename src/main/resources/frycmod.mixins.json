@@ -23,7 +23,6 @@
     "SpiderConvertMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

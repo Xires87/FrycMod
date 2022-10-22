@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.gamerule.v1.GameRuleRegistry;
 import net.minecraft.world.GameRules;
 
 public class ModGameRules {
-
     public static GameRules.Key<GameRules.BooleanRule> BLOCK_COPPER_RECIPES;
     public static GameRules.Key<GameRules.BooleanRule> BLOCK_IRON_RECIPES;
     public static GameRules.Key<GameRules.BooleanRule> BLOCK_GOLDEN_RECIPES;
@@ -19,7 +18,6 @@ public class ModGameRules {
     public static GameRules.Key<GameRules.IntRule> MELEE_BLEED_LENGTH;
     public static GameRules.Key<GameRules.IntRule> ARROW_BLEED_LENGTH;
     public static GameRules.Key<GameRules.IntRule> HEALTH_LOSS_LENGTH;
-
 
     public static GameRules.Key<GameRules.IntRule> FORGOTTEN_SPAWN_LEVEL;
     public static GameRules.Key<GameRules.IntRule> UNDEAD_WARRIOR_SPAWN_LEVEL;
