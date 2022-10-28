@@ -206,20 +206,6 @@
   "gamerule.arrowBleedLength": "Length of bleeding from arrows",
   "gamerule.healthLossLength": "Length of health loss from spider attacks",
 
-  "gamerule.overwriteToolTradeOffers": "Change trade offers for Toolsmith, Weaponsmith, Armorer and Cleric",
-  "gamerule.overwriteToolTradeOffers.description": "When turned off, these villagers use vanilla trade offers, which are overpowered with this mod",
-  "gamerule.overwriteLibrarianTradeOffers": "Change trade offers for Librarian",
-  "gamerule.overwriteLibrarianTradeOffers.description": "When turned off, Librarians sell enchanted books from first level (novice) and don't sell scrolls",
-
-  "gamerule.blockCopperRecipes": "Block copper recipes",
-  "gamerule.blockCopperRecipes.description": "When turned on, you have to stand near Copper Smithing Table to craft copper items",
-  "gamerule.blockIronRecipes": "Block iron recipes",
-  "gamerule.blockIronRecipes.description": "When turned on, you have to stand near Iron Smithing Table to craft iron items",
-  "gamerule.blockGoldenRecipes": "Block gold recipes",
-  "gamerule.blockGoldenRecipes.description": "When turned on, you have to stand near Golden Smithing Table to craft golden items",
-  "gamerule.blockDiamondRecipes": "Block diamond recipes",
-  "gamerule.blockDiamondRecipes.description": "When turned on, you have to stand near Diamond Smithing Table to craft diamond items",
-
   "gamerule.zombieToForgottenConvertLevelY": "Convert zombies to forgotten under Y level:",
   "gamerule.zombieToForgottenConvertLevelY.description": "Zombies have a chance to convert into stronger variant when they spawn below this Y level",
 

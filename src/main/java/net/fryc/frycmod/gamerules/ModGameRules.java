@@ -5,11 +5,6 @@ import net.fabricmc.fabric.api.gamerule.v1.GameRuleRegistry;
 import net.minecraft.world.GameRules;
 
 public class ModGameRules {
-    public static GameRules.Key<GameRules.BooleanRule> BLOCK_COPPER_RECIPES;
-    public static GameRules.Key<GameRules.BooleanRule> BLOCK_IRON_RECIPES;
-    public static GameRules.Key<GameRules.BooleanRule> BLOCK_GOLDEN_RECIPES;
-    public static GameRules.Key<GameRules.BooleanRule> BLOCK_DIAMOND_RECIPES;
-
     public static GameRules.Key<GameRules.BooleanRule> BLEEDOUT_KILLS;
     public static GameRules.Key<GameRules.BooleanRule> BLEEDING_STOPS_FOOD_HEALING;
     public static GameRules.Key<GameRules.BooleanRule> ENABLE_MELEE_EFFECT_UPGRADING;
@@ -23,11 +18,6 @@ public class ModGameRules {
     public static GameRules.Key<GameRules.IntRule> UNDEAD_WARRIOR_SPAWN_LEVEL;
     public static GameRules.Key<GameRules.IntRule> ARMORED_SPIDER_SPAWN_LEVEL;
     public static void registerGameRules(){
-        BLOCK_COPPER_RECIPES = GameRuleRegistry.register("blockCopperRecipes", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(true));
-        BLOCK_IRON_RECIPES = GameRuleRegistry.register("blockIronRecipes", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(true));
-        BLOCK_GOLDEN_RECIPES = GameRuleRegistry.register("blockGoldenRecipes", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(true));
-        BLOCK_DIAMOND_RECIPES = GameRuleRegistry.register("blockDiamondRecipes", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(true));
-
         BLEEDOUT_KILLS = GameRuleRegistry.register("bleedoutKills", GameRules.Category.PLAYER, GameRuleFactory.createBooleanRule(true));
         BLEEDING_STOPS_FOOD_HEALING = GameRuleRegistry.register("bleedingStopsFoodHealing", GameRules.Category.PLAYER, GameRuleFactory.createBooleanRule(true));
         ENABLE_MELEE_EFFECT_UPGRADING = GameRuleRegistry.register("enableMeleeEffectUpgrading", GameRules.Category.PLAYER, GameRuleFactory.createBooleanRule(true));

@@ -11,8 +11,9 @@ public final class ModItemTags {
     public static final TagKey<Item> GOLDEN_HAMMERS = ModItemTags.register("golden_hammers");
     public static final TagKey<Item> DIAMOND_HAMMERS = ModItemTags.register("diamond_hammers");
     public static final TagKey<Item> COPPER_BLOCKS = ModItemTags.register("copper_blocks");
-    public static final TagKey<Item> TABLES = ModItemTags.register("tables");
+    public static final TagKey<Item> VANILLA_GOLDEN_TOOLS = ModItemTags.register("vanilla_golden_tools");
     public static final TagKey<Item> TABLES_INGREDIENTS = ModItemTags.register("tables_ingredients");
+
     public static final TagKey<Item> NEEDS_COPPER_TABLE = ModItemTags.register("needs_copper_table");
     public static final TagKey<Item> NEEDS_IRON_TABLE = ModItemTags.register("needs_iron_table");
     public static final TagKey<Item> NEEDS_GOLDEN_TABLE = ModItemTags.register("needs_golden_table");
