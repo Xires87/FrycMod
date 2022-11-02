@@ -30,7 +30,7 @@ public class FrycMod implements ModInitializer {
 	StandNearBlockRBR IRON = new StandNearBlockRBR("Workshop: Iron Smithing Table", ModItemTags.NEEDS_IRON_TABLE, ModBlockTags.IRON_TABLES);
 	StandNearBlockRBR GOLDEN = new StandNearBlockRBR("Workshop: Golden Smithing Table", ModItemTags.NEEDS_GOLDEN_TABLE, ModBlockTags.GOLDEN_TABLES);
 	StandNearBlockRBR DIAMOND = new StandNearBlockRBR("Workshop: Diamond Smithing Table", ModItemTags.NEEDS_DIAMOND_TABLE, ModBlockTags.DIAMOND_TABLES);
-	RecipeBlockingRules VANILLA_GOLDEN_ITEMS = new RecipeBlockingRules("", ModItemTags.VANILLA_GOLDEN_TOOLS);
+	RecipeBlockingRules VANILLA_GOLDEN_ITEMS = new RecipeBlockingRules("Recipe disabled by: Frycmod", ModItemTags.VANILLA_GOLDEN_TOOLS);
 	@Override
 	public void onInitialize() {
 		ModConfiguredFeatures.registerConfiguredFeatures();
