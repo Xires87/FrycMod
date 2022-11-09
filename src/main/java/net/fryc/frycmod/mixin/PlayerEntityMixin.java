@@ -1,5 +1,6 @@
 package net.fryc.frycmod.mixin;
 
+import net.fryc.frycmod.FrycMod;
 import net.fryc.frycmod.effects.ModEffects;
 import net.fryc.frycmod.gamerules.ModGameRules;
 import net.minecraft.entity.EntityType;
@@ -82,7 +83,7 @@ abstract class PlayerEntityMixin extends LivingEntity {
     @Inject(method = "tick()V", at = @At("TAIL"))
     public void setBlindness(CallbackInfo info){
         PlayerEntity player = ((PlayerEntity) (Object) this);
-        if(player.getHealth()<=1){
+        if(player.getHealth()<=1 && FrycMod.config.enableBlindnessAtLowHp){
             if(player.hasStatusEffect(StatusEffects.BLINDNESS)){
                 if(player.getActiveStatusEffects().get(StatusEffects.BLINDNESS).getDuration() < 25) player.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 60 , 0));
             }

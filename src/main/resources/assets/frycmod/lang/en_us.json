@@ -213,5 +213,31 @@
   "gamerule.spiderToBlackSpiderConvertLevelY.description": "Spiders have a chance to convert into stronger variant when they spawn below this Y level",
 
   "gamerule.skeletonToUndeadWarriorConvertLevelY": "Convert skeletons to undead warriors under Y level:",
-  "gamerule.skeletonToUndeadWarriorConvertLevelY.description": "Skeletons have a chance to convert into stronger variant when they spawn below this Y level"
+  "gamerule.skeletonToUndeadWarriorConvertLevelY.description": "Skeletons have a chance to convert into stronger variant when they spawn below this Y level",
+
+
+  "text.autoconfig.frycmod.title": "Frycmod Config",
+  "text.autoconfig.frycmod.category.recipes": "Items and Recipes",
+  "text.autoconfig.frycmod.category.trades": "Trade Offers",
+  "text.autoconfig.frycmod.category.other": "Other",
+
+  "text.autoconfig.frycmod.option.isTooltipsEnabled": "Add tooltips for items, that require smithing table to craft [Restart Required]",
+  "text.autoconfig.frycmod.option.isTooltipsEnabled.@Tooltip": "Adds tooltips telling you which smithing table is required to craft item",
+  "text.autoconfig.frycmod.option.isCopperRecipeBlocked": "Block copper recipes [Restart required]",
+  "text.autoconfig.frycmod.option.isCopperRecipeBlocked.@Tooltip": "Copper items cannot be crafted if you don't stand near Copper Smithing Table (or better smithing table)",
+  "text.autoconfig.frycmod.option.isIronRecipeBlocked": "Block iron recipes [Restart required]",
+  "text.autoconfig.frycmod.option.isIronRecipeBlocked.@Tooltip": "Iron items cannot be crafted if you don't stand near Iron Smithing Table (or better smithing table)",
+  "text.autoconfig.frycmod.option.isGoldRecipeBlocked": "Block gold recipes [Restart required]",
+  "text.autoconfig.frycmod.option.isGoldRecipeBlocked.@Tooltip": "Golden items cannot be crafted if you don't stand near Golden Smithing Table (or better smithing table)",
+  "text.autoconfig.frycmod.option.isDiamondRecipeBlocked": "Block diamond recipes [Restart required]",
+  "text.autoconfig.frycmod.option.isDiamondRecipeBlocked.@Tooltip": "Diamond items cannot be crafted if you don't stand near Diamond Smithing Table",
+
+  "text.autoconfig.frycmod.option.isTradeOffersModified": "Modify trade offers [Restart required]",
+  "text.autoconfig.frycmod.option.isTradeOffersModified.@Tooltip": "Modifies trade offers for Armorer, Toolsmith and Weaponsmith (may break trade offers from other mods)",
+
+  "text.autoconfig.frycmod.option.forceModifiedTradeOffers": "Force trade offers from Frycmod (!!! Trade offers from other mods will not work !!!)",
+  "text.autoconfig.frycmod.option.forceModifiedTradeOffers.@Tooltip": "Modifies trade offers for Armorer, Toolsmith and Weaponsmith and prevents other mods from adding new trade offers (or changing existing ones) for ALL professions",
+
+  "text.autoconfig.frycmod.option.enableBlindnessAtLowHp": "Enable blindness at low HP",
+  "text.autoconfig.frycmod.option.enableBlindnessAtLowHp.@Tooltip": "Player will get blindness at 1 hp"
 }

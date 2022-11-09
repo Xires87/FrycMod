@@ -1,0 +1,239 @@
+{
+  "item.minecraft.golden_helmet": "Lśniący Złoty Hełm",
+  "item.minecraft.golden_chestplate": "Lśniący Złoty Napierśnik",
+  "item.minecraft.golden_leggings": "Lśniące Złote Nogawice",
+  "item.minecraft.golden_boots": "Lśniące Złote Buty",
+  "item.minecraft.golden_axe": "Lśniąca Złota Siekiera",
+  "item.minecraft.golden_pickaxe": "Lśniący Złoty Kilof",
+  "item.minecraft.golden_sword": "Lśniący Złoty Miecz",
+  "item.minecraft.golden_hoe": "Lśniąca Złota Motyka",
+  "item.minecraft.golden_shovel": "Lśniąca Złota Łopata",
+
+  "item.frycmod.copper_pickaxe": "Miedziany Kilof",
+  "item.frycmod.copper_axe": "Miedziana Siekiera",
+  "item.frycmod.copper_sword": "Miedziany Miecz",
+  "item.frycmod.copper_shovel": "Miedziana Łopata",
+  "item.frycmod.copper_hoe": "Miedziana Motyka",
+  "item.frycmod.copper_hammer": "Miedziany Młot",
+
+  "item.frycmod.nugget_copper_pickaxe": "Wzmocniony Miedziany Kilof",
+  "item.frycmod.ingot_copper_pickaxe": "Ulepszony Miedziany Kilof",
+  "item.frycmod.nugget_copper_axe": "Wzmocniona Miedziana Siekiera",
+  "item.frycmod.ingot_copper_axe": "Ulepszona Miedziana Siekiera",
+  "item.frycmod.nugget_copper_sword": "Wzmocniony Miedziany Miecz",
+  "item.frycmod.ingot_copper_sword": "Ulepszony Miedziany Miecz",
+  "item.frycmod.nugget_copper_shovel": "Wzmocniona Miedziana Łopata",
+  "item.frycmod.ingot_copper_shovel": "Ulepszona Miedziana Łopata",
+  "item.frycmod.nugget_copper_hoe": "Wzmocniona Miedziana Motyka",
+  "item.frycmod.ingot_copper_hoe": "Ulepszona Miedziana Motyka",
+  "item.frycmod.nugget_copper_hammer": "Wzmocniony Miedziany Młot",
+  "item.frycmod.ingot_copper_hammer": "Ulepszony Miedziany Młot",
+
+  "item.frycmod.copper_helmet": "Miedziany Hełm",
+  "item.frycmod.copper_chestplate": "Miedziany Napierśnik",
+  "item.frycmod.copper_leggings": "Miedziane Nogawice",
+  "item.frycmod.copper_boots": "Miedziane Buty",
+
+  "item.frycmod.nugget_copper_helmet": "Wzmocniony Miedziany Hełm",
+  "item.frycmod.ingot_copper_helmet": "Ulepszony Miedziany Hełm",
+  "item.frycmod.nugget_copper_chestplate": "Wzmocniony Miedziany Napierśnik",
+  "item.frycmod.ingot_copper_chestplate": "Ulepszony Miedziany Napierśnik",
+  "item.frycmod.nugget_copper_leggings": "Wzmocnione Miedziane Nogawice",
+  "item.frycmod.ingot_copper_leggings": "Ulepszone Miedziane Nogawice",
+  "item.frycmod.nugget_copper_boots": "Wzmocnione Miedziane Buty",
+  "item.frycmod.ingot_copper_boots": "Ulepszone Miedziane Buty",
+
+  "item.frycmod.iron_hammer": "Żelazny Młot",
+
+  "item.frycmod.nugget_iron_pickaxe": "Wzmocniony Żelazny Kilof",
+  "item.frycmod.nugget_iron_axe": "Wzmocniona Żelazna Siekiera",
+  "item.frycmod.nugget_iron_sword": "Wzmocniony Żelazny Miecz",
+  "item.frycmod.nugget_iron_shovel": "Wzmocniona Żelazna Łopata",
+  "item.frycmod.nugget_iron_hoe": "Wzmocniona Żelazna Motyka",
+  "item.frycmod.nugget_iron_hammer": "Wzmocniony Żelazny Młot",
+
+  "item.frycmod.ingot_iron_pickaxe": "Ulepszony Żelazny Kilof",
+  "item.frycmod.ingot_iron_axe": "Ulepszona Żelazna Siekiera",
+  "item.frycmod.ingot_iron_sword": "Ulepszony Żelazny Miecz",
+  "item.frycmod.ingot_iron_shovel": "Ulepszona Żelazna Łopata",
+  "item.frycmod.ingot_iron_hoe": "Ulepszona Żelazna Motyka",
+  "item.frycmod.ingot_iron_hammer": "Ulepszony Żelazny Młot",
+
+  "item.frycmod.nugget_iron_helmet": "Wzmocniony Żelazny Hełm",
+  "item.frycmod.ingot_iron_helmet": "Ulepszony Żelazny Hełm",
+  "item.frycmod.nugget_iron_chestplate": "Wzmocniony Żelazny Napierśnik",
+  "item.frycmod.ingot_iron_chestplate": "Ulepszony Żelazny Napierśnik",
+  "item.frycmod.nugget_iron_leggings": "Wzmocnione Żelazne Nogawice",
+  "item.frycmod.ingot_iron_leggings": "Ulepszone Żelazne Nogawice",
+  "item.frycmod.nugget_iron_boots": "Wzmocnione Żelazne Buty",
+  "item.frycmod.ingot_iron_boots": "Ulepszone Żelazne Buty",
+
+  "item.frycmod.golden_pickaxe": "Złoty Kilof",
+  "item.frycmod.golden_axe": "Złota Siekiera",
+  "item.frycmod.golden_sword": "Złoty Miecz",
+  "item.frycmod.golden_shovel": "Złota Łopata",
+  "item.frycmod.golden_hoe": "Złota Motyka",
+  "item.frycmod.golden_hammer": "Złoty Młot",
+
+  "item.frycmod.golden_helmet": "Złoty Hełm",
+  "item.frycmod.golden_chestplate": "Złoty Napierśnik",
+  "item.frycmod.golden_leggings": "Złote Nogawice",
+  "item.frycmod.golden_boots": "Złote Buty",
+
+  "item.frycmod.diamond_hammer": "Diamentowy Młot",
+  "item.frycmod.netherite_hammer": "Netherytowy Młot",
+
+
+  "block.frycmod.copper_table": "Miedziany Stół Kowalski",
+  "block.frycmod.iron_table": "Żelazny Stół Kowalski",
+  "block.frycmod.gold_table": "Złoty Stół Kowalski",
+  "block.frycmod.diamond_table": "Diamentowy Stół Kowalski",
+
+
+  "item.frycmod.bone_helmet": "Kościany Hełm",
+  "item.frycmod.bone_chestplate": "Kościany Napierśnik",
+  "item.frycmod.bone_leggings": "Kościane Nogawice",
+  "item.frycmod.bone_boots": "Kościane Buty",
+
+
+  "item.frycmod.diamond_golden_pickaxe": "Wzmocniony Złoty Kilof",
+  "item.frycmod.diamond_golden_axe": "Wzmocniona Złota Siekiera",
+  "item.frycmod.diamond_golden_sword": "Wzmocniony Złoty Miecz",
+  "item.frycmod.diamond_golden_shovel": "Wzmocniona Złota Łopata",
+  "item.frycmod.diamond_golden_hoe": "Wzmocniona Złota Motyka",
+  "item.frycmod.diamond_golden_hammer": "Wzmocniony Złoty Młot",
+
+  "item.frycmod.diamond_golden_helmet": "Wzmocniony Złoty Hełm",
+  "item.frycmod.diamond_golden_chestplate": "Wzmocniony Złoty Napierśnik",
+  "item.frycmod.diamond_golden_leggings": "Wzmocnione Złote Nogawice",
+  "item.frycmod.diamond_golden_boots": "Wzmocnione Złote Buty",
+
+  "item.frycmod.wither_helmet": "Hełm z Kości Withera",
+  "item.frycmod.wither_chestplate": "Napierśnik z Kości Withera",
+  "item.frycmod.wither_leggings": "Nogawice z Kości Withera",
+  "item.frycmod.wither_boots": "Buty z Kości Withera",
+
+  "item.frycmod.warden_helmet": "Starożytny Hełm",
+  "item.frycmod.warden_chestplate": "Starożytny Napierśnik",
+  "item.frycmod.warden_leggings": "Starożytne Nogawice",
+  "item.frycmod.warden_boots": "Starożytne Buty",
+
+  "item.frycmod.echo_warden_helmet": "Nieumarły Hełm",
+  "item.frycmod.echo_warden_chestplate": "Nieumarły Napierśnik",
+  "item.frycmod.echo_warden_leggings": "Nieumarłe Nogawice",
+  "item.frycmod.echo_warden_boots": "Nieumarłe Buty",
+
+  "item.frycmod.ancient_remains": "Starożytne Szczątki",
+  "item.frycmod.echo_ancient_remains": "Żywe Szczątki",
+  "block.frycmod.ancient_fossil": "Starożytna Skamielina",
+
+  "item.frycmod.magic_scroll_tool": "Magiczny Zwój (Narzędzie)",
+  "item.frycmod.magic_scroll_armor": "Magiczny Zwój (Zbroja)",
+  "item.frycmod.magic_scroll_weapon": "Magiczny Zwój (Broń)",
+
+  "effect.frycmod.bleed": "Krwawienie",
+  "effect.frycmod.bleedout": "Wykrwawienie",
+  "effect.frycmod.health_loss": "Utrata Zdrowia",
+  "effect.frycmod.immunity": "Odporność",
+
+  "item.frycmod.bandage": "Bandaż",
+  "item.frycmod.honey_bandage": "Bandaż z Miodem",
+  "item.frycmod.sticky_bandage": "Lepki Bandaż",
+
+  "item.minecraft.potion.effect.wither_potion": "Mikstura Rozkładu",
+  "item.minecraft.splash_potion.effect.wither_potion": "Miotana Mikstura Rozkładu",
+  "item.minecraft.lingering_potion.effect.wither_potion": "Trwała Mikstura Rozkładu",
+
+  "item.minecraft.potion.effect.long_wither_potion": "Mikstura Rozkładu",
+  "item.minecraft.splash_potion.effect.long_wither_potion": "Miotana Mikstura Rozkładu",
+  "item.minecraft.lingering_potion.effect.long_wither_potion": "Trwała Mikstura Rozkładu",
+
+  "item.minecraft.potion.effect.strong_wither_potion": "Mikstura Rozkładu",
+  "item.minecraft.splash_potion.effect.strong_wither_potion": "Miotana Mikstura Rozkładu",
+  "item.minecraft.lingering_potion.effect.strong_wither_potion": "Trwała Mikstura Rozkładu",
+
+  "item.minecraft.potion.effect.hp_boost_potion": "Mikstura Witalności",
+  "item.minecraft.splash_potion.effect.hp_boost_potion": "Miotana Mikstura Witalności",
+  "item.minecraft.lingering_potion.effect.hp_boost_potion": "Trwała Mikstura Witalności",
+
+  "item.minecraft.potion.effect.long_hp_boost_potion": "Mikstura Witalności",
+  "item.minecraft.splash_potion.effect.long_hp_boost_potion": "Miotana Mikstura Witalności",
+  "item.minecraft.lingering_potion.effect.long_hp_boost_potion": "Trwała Mikstura Witalności",
+
+  "item.minecraft.potion.effect.strong_hp_boost_potion": "Mikstura Witalności",
+  "item.minecraft.splash_potion.effect.strong_hp_boost_potion": "Miotana Mikstura Witalności",
+  "item.minecraft.lingering_potion.effect.strong_hp_boost_potion": "Trwała Mikstura Witalności",
+
+  "item.minecraft.tipped_arrow.effect.strong_hp_boost_potion": "Strzała Witalności",
+  "item.minecraft.tipped_arrow.effect.hp_boost_potion": "Strzała Witalności",
+  "item.minecraft.tipped_arrow.effect.long_hp_boost_potion": "Strzała Witalności",
+
+  "item.minecraft.tipped_arrow.effect.strong_wither_potion": "Strzała Rozkładu",
+  "item.minecraft.tipped_arrow.effect.long_wither_potion": "Strzała Rozkładu",
+  "item.minecraft.tipped_arrow.effect.wither_potion": "Strzała Rozkładu",
+
+  "item.frycmod.wither_bone": "Kość Witherowego Szkieleta",
+  "item.frycmod.red_crystals": "Czerwone Krzyształy Pryzmarynu",
+  "item.frycmod.clover": "Czterolistna Koniczyna",
+
+  "enchantment.frycmod.ender_curse_enchantment": "Klątwa Kresu",
+  "enchantment.frycmod.flames_curse_enchantment": "Klątwa Płomieni",
+  "enchantment.frycmod.absorption_enchantment": "Absorpcja",
+  "effect.frycmod.ender_curse": "Klątwa Kresu",
+
+
+  "entity.frycmod.armored_spider": "Czarny Pająk",
+  "entity.frycmod.undead_warrior": "Nieumarły Wojownik",
+  "entity.frycmod.forgotten": "Zapomniany",
+
+  "item.frycmod.forgotten_spawn_egg": "Jajo przyzywające Zapomnianego",
+  "item.frycmod.undead_warrior_spawn_egg": "Jajo przyzywające Nieumarłego Wojownika",
+  "item.frycmod.armored_spider_spawn_egg": "Jajo przyzywające Czarnego Pająka",
+
+
+  "gamerule.bleedoutKills": "Wykrwawienie może zabić",
+  "gamerule.bleedingStopsFoodHealing": "Krwawienie zatrzymuje leczenie jedzeniem",
+  "gamerule.enableMeleeEffectUpgrading": "Ataki wręcz ulepszają krwawienie",
+  "gamerule.enableMeleeEffectUpgrading.description": "Kiedy gracz krwawi, otrzyma Krwawienie II, które trwa dłużej, po otrzymaniu obrażeń od ataku wręcz",
+  "gamerule.enableArrowEffectUpgrading": "Strzały ulepszają krwawienie",
+  "gamerule.enableArrowEffectUpgrading.description": "Kiedy gracz krwawi, otrzyma Krwawienie II, które trwa dłużej, po otrzymaniu obrażeń od strzały",
+  "gamerule.enableDarknessAtLowHp": "Gracz otrzymuje efekt Ciemność gdy otrzymuje obrażenia i ma niski poziom zdrowia",
+
+  "gamerule.meleeBleedLength": "Długość krwawienia od ataków wręcz",
+  "gamerule.arrowBleedLength": "Długość krwawienia od strzał",
+  "gamerule.healthLossLength": "Długość utraty zdrowia od ataków pająka",
+
+  "gamerule.zombieToForgottenConvertLevelY": "Przemień zombie w zapomnianych poniżej poziomu Y:",
+  "gamerule.zombieToForgottenConvertLevelY.description": "Zombie mają szansę zmienić się w silniejszy wariant kiedy pojawiają się poniżej podanego poziomu",
+
+  "gamerule.spiderToBlackSpiderConvertLevelY": "Przemień pająki w czarne pająki poniżej poziomu Y:",
+  "gamerule.spiderToBlackSpiderConvertLevelY.description": "Pająki mają szansę zmienić się w silniejszy wariant kiedy pojawiają się poniżej podanego poziomu",
+
+  "gamerule.skeletonToUndeadWarriorConvertLevelY": "Przemień szkielety w nieumarłych wojowników poniżej poziomu Y:",
+  "gamerule.skeletonToUndeadWarriorConvertLevelY.description": "Szkielety mają szansę zmienić się w silniejszy wariant kiedy pojawiają się poniżej podanego poziomu",
+
+  "text.autoconfig.frycmod.title": "Konfiguracja Frycmod",
+  "text.autoconfig.frycmod.category.recipes": "Przedmioty i Receptury",
+  "text.autoconfig.frycmod.category.trades": "Oferty Handlowe",
+  "text.autoconfig.frycmod.category.other": "Inne",
+
+  "text.autoconfig.frycmod.option.isTooltipsEnabled": "Dodaj podpisy dla przedmiotów, które wymagają stołu kowalskiego do wytworzenia [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.isTooltipsEnabled.@Tooltip": "Dodaje podpisy informujące który stół kowalski jest wymagany aby stworzyć przedmiot",
+  "text.autoconfig.frycmod.option.isCopperRecipeBlocked": "Zablokuj miedziane receptury [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.isCopperRecipeBlocked.@Tooltip": "Miedziane przedmioty nie mogą zostać wytworzone jeśli nie stoisz przy Miedzianym Stole Kowalskim (lub lepszym stole kowalskim)",
+  "text.autoconfig.frycmod.option.isIronRecipeBlocked": "Zablokuj żelazne receptury [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.isIronRecipeBlocked.@Tooltip": "Żelazne przedmioty nie mogą zostać wytworzone jeśli nie stoisz przy Żelaznym Stole Kowalskim (lub lepszym stole kowalskim)",
+  "text.autoconfig.frycmod.option.isGoldRecipeBlocked": "Zablokuj złote receptury [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.isGoldRecipeBlocked.@Tooltip": "Złote przedmioty nie mogą zostać wytworzone jeśli nie stoisz przy Złotym Stole Kowalskim (lub lepszym stole kowalskim)",
+  "text.autoconfig.frycmod.option.isDiamondRecipeBlocked": "Zablokuj diamentowe receptury [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.isDiamondRecipeBlocked.@Tooltip": "Diamentowe przedmioty nie mogą zostać wytworzone jeśli nie stoisz przy Diamentowym Stole Kowalskim",
+
+  "text.autoconfig.frycmod.option.isTradeOffersModified": "Zmodyfikuj oferty handlowe [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.isTradeOffersModified.@Tooltip": "Modyfikuje oferty dla Płatnerza, Narzędziarza (XD) i Zbrojmistrza (może zepsuć oferty z innych modów)",
+
+  "text.autoconfig.frycmod.option.forceModifiedTradeOffers": "Wymuś oferty z Frycmod (!!! Oferty z innych modów nie będą działać !!!)",
+  "text.autoconfig.frycmod.option.forceModifiedTradeOffers.@Tooltip": "Modyfikuje oferty dla Płatnerza, Narzędziarza i Zbrojmistrza i powstrzymuje inne mody przed dodawaniem nowych ofert (lub zmienianiem istniejących) dla WSZYSTKICH profesji",
+
+  "text.autoconfig.frycmod.option.enableBlindnessAtLowHp": "Włącz oślepienie przy niskim zdrowiu",
+  "text.autoconfig.frycmod.option.enableBlindnessAtLowHp.@Tooltip": "Gracz dostanie oślepienie, gdy jego zdrowie będzie wynosić 1"
+}

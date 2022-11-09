@@ -19,7 +19,8 @@
     "ArmorsMixin",
     "ZombieConvertMixin",
     "SkeletonConvertMixin",
-    "SpiderConvertMixin"
+    "SpiderConvertMixin",
+    "VillagerEntityMixin"
   ],
   "client": [
   ],
