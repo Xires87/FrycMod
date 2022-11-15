@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "frycmod:golden_hammer",
+    "frycmod:golden_pickaxe",
+    "frycmod:golden_axe",
+    "frycmod:golden_shovel",
+    "frycmod:golden_hoe",
+    "frycmod:golden_sword",
+    "frycmod:golden_helmet",
+    "frycmod:golden_chestplate",
+    "frycmod:golden_leggings",
+    "frycmod:golden_boots",
+    "frycmod:diamond_golden_hammer",
+    "frycmod:diamond_golden_pickaxe",
+    "frycmod:diamond_golden_axe",
+    "frycmod:diamond_golden_shovel",
+    "frycmod:diamond_golden_hoe",
+    "frycmod:diamond_golden_sword",
+    "frycmod:diamond_golden_helmet",
+    "frycmod:diamond_golden_chestplate",
+    "frycmod:diamond_golden_leggings",
+    "frycmod:diamond_golden_boots"
+  ]
+}

@@ -1,5 +1,6 @@
 package net.fryc.frycmod.tag;
 
+import net.fryc.frycmod.FrycMod;
 import net.minecraft.item.Item;
 import net.minecraft.tag.TagKey;
 import net.minecraft.util.Identifier;
@@ -11,6 +12,8 @@ public final class ModItemTags {
     public static final TagKey<Item> GOLDEN_HAMMERS = ModItemTags.register("golden_hammers");
     public static final TagKey<Item> DIAMOND_HAMMERS = ModItemTags.register("diamond_hammers");
     public static final TagKey<Item> COPPER_BLOCKS = ModItemTags.register("copper_blocks");
+    public static final TagKey<Item> TABLES = ModItemTags.register("tables");
+    public static final TagKey<Item> NETHERITE_INGOT = ModItemTags.register("netherite_ingot");
     public static final TagKey<Item> VANILLA_GOLDEN_TOOLS = ModItemTags.register("vanilla_golden_tools");
     public static final TagKey<Item> TABLES_INGREDIENTS = ModItemTags.register("tables_ingredients");
 
@@ -22,12 +25,20 @@ public final class ModItemTags {
     public static final TagKey<Item> WITHER_ARMORS = ModItemTags.register("wither_armors");
     public static final TagKey<Item> SCROLLS = ModItemTags.register("scrolls");
 
+    //for sounds
+    public static final TagKey<Item> SOUND_TOOLS_AND_ARMOR = ModItemTags.register("sound_tools_and_armor");
+    public static final TagKey<Item> SOUND_WOOD = ModItemTags.register("sound_wood");
+    public static final TagKey<Item> SOUND_STONE = ModItemTags.register("sound_stone");
+    public static final TagKey<Item> SOUND_DEEPSLATE = ModItemTags.register("sound_deepslate");
+    public static final TagKey<Item> SOUND_INGOTS_FROM_FURNACE = ModItemTags.register("sound_ingots_from_furnace");
+    public static final TagKey<Item> SOUND_BONE_ARMORS = ModItemTags.register("sound_bone_armors");
+
 
 
     private ModItemTags() {
     }
 
     private static TagKey<Item> register(String id) {
-        return TagKey.of(Registry.ITEM_KEY, new Identifier(id));
+        return TagKey.of(Registry.ITEM_KEY, new Identifier(FrycMod.MOD_ID, id));
     }
 }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "frycmod:copper_table",
+    "frycmod:iron_table",
+    "frycmod:gold_table",
+    "frycmod:diamond_table"
+  ]
+}

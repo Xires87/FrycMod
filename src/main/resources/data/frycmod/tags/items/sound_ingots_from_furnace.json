@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:copper_ingot",
+    "minecraft:copper_block",
+    "minecraft:iron_ingot",
+    "minecraft:iron_block",
+    "minecraft:iron_nugget",
+    "minecraft:gold_ingot",
+    "minecraft:gold_block",
+    "minecraft:gold_nugget",
+    "minecraft:netherite_scrap",
+    "frycmod:ancient_remains"
+  ]
+}

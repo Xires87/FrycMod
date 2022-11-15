@@ -21,6 +21,10 @@ public class FrycmodConfig implements ConfigData {
     @ConfigEntry.Category("recipes")
     @ConfigEntry.Gui.Tooltip
     public boolean isDiamondRecipeBlocked = true;
+
+    @ConfigEntry.Category("recipes")
+    @ConfigEntry.Gui.Tooltip
+    public boolean isMiscRecipeBlocked = true;
     @ConfigEntry.Category("trades")
     @ConfigEntry.Gui.Tooltip
     public boolean isTradeOffersModified = true;
@@ -31,5 +35,9 @@ public class FrycmodConfig implements ConfigData {
     @ConfigEntry.Category("other")
     @ConfigEntry.Gui.Tooltip
     public boolean enableBlindnessAtLowHp = true;
+
+    @ConfigEntry.Category("other")
+    @ConfigEntry.Gui.Tooltip
+    public boolean playOnCraftSounds = true;
 
 }

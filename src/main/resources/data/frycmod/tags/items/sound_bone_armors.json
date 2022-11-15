@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#frycmod:wither_armors",
+    "frycmod:bone_helmet",
+    "frycmod:bone_chestplate",
+    "frycmod:bone_leggings",
+    "frycmod:bone_boots"
+  ]
+}
