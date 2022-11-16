@@ -1,7 +1,7 @@
 package net.fryc.frycmod.mixin;
 
+import net.fryc.frycmod.FrycMod;
 import net.fryc.frycmod.entity.mobs.ModMobs;
-import net.fryc.frycmod.gamerules.ModGameRules;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.mob.AbstractSkeletonEntity;
@@ -34,8 +34,8 @@ abstract class SkeletonConvertMixin extends AbstractSkeletonEntity {
             SkeletonEntity skeleton = ((SkeletonEntity)(Object)this);
             if(skeleton.getName().contains(Text.of("Skeleton"))){
                 int i = (int)skeleton.getY();
-                if(canConvert && i < world.getGameRules().getInt(ModGameRules.UNDEAD_WARRIOR_SPAWN_LEVEL)){
-                    if(random.nextInt(i, 100 + i) < world.getGameRules().getInt(ModGameRules.UNDEAD_WARRIOR_SPAWN_LEVEL)){ // ~26% to convert on 0Y level (default)
+                if(canConvert && i < FrycMod.config.skeletonToUndeadWarriorConvertLevelY){
+                    if(random.nextInt(i, 100 + i) < FrycMod.config.skeletonToUndeadWarriorConvertLevelY){ // ~26% to convert on 0Y level (default)
                         if(skeleton.getMainHandStack().hasEnchantments()){ //skeletons with enchantments on bow always convert to undead warriors with bow
                             skeleton.convertTo(ModMobs.UNDEAD_WARRIOR, true);
                         }

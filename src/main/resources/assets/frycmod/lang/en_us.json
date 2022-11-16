@@ -194,31 +194,11 @@
   "item.frycmod.armored_spider_spawn_egg": "Black Spider Spawn Egg",
 
 
-  "gamerule.bleedoutKills": "Bleed out can kill",
-  "gamerule.bleedingStopsFoodHealing": "Bleeding stops food healing",
-  "gamerule.enableMeleeEffectUpgrading": "Melee attacks upgrade bleeding",
-  "gamerule.enableMeleeEffectUpgrading.description": "While bleeding, player get Bleed II with increased duration after getting damage from melee attack",
-  "gamerule.enableArrowEffectUpgrading": "Arrows upgrade bleeding",
-  "gamerule.enableArrowEffectUpgrading.description": "While bleeding, player get Bleed II with increased duration after getting damage from arrow",
-  "gamerule.enableDarknessAtLowHp": "Player gets darkness after taking damage at low HP",
-
-  "gamerule.meleeBleedLength": "Length of bleeding from melee attacks",
-  "gamerule.arrowBleedLength": "Length of bleeding from arrows",
-  "gamerule.healthLossLength": "Length of health loss from spider attacks",
-
-  "gamerule.zombieToForgottenConvertLevelY": "Convert zombies to forgotten under Y level:",
-  "gamerule.zombieToForgottenConvertLevelY.description": "Zombies have a chance to convert into stronger variant when they spawn below this Y level",
-
-  "gamerule.spiderToBlackSpiderConvertLevelY": "Convert spiders to black spiders under Y level:",
-  "gamerule.spiderToBlackSpiderConvertLevelY.description": "Spiders have a chance to convert into stronger variant when they spawn below this Y level",
-
-  "gamerule.skeletonToUndeadWarriorConvertLevelY": "Convert skeletons to undead warriors under Y level:",
-  "gamerule.skeletonToUndeadWarriorConvertLevelY.description": "Skeletons have a chance to convert into stronger variant when they spawn below this Y level",
-
-
   "text.autoconfig.frycmod.title": "Frycmod Config",
   "text.autoconfig.frycmod.category.recipes": "Items and Recipes",
+  "text.autoconfig.frycmod.category.bleeding": "Bleeding",
   "text.autoconfig.frycmod.category.trades": "Trade Offers",
+  "text.autoconfig.frycmod.category.mobs": "Mobs",
   "text.autoconfig.frycmod.category.other": "Other",
 
   "text.autoconfig.frycmod.option.isTooltipsEnabled": "Add tooltips for items, that require smithing table to craft [Restart Required]",
@@ -231,6 +211,8 @@
   "text.autoconfig.frycmod.option.isGoldRecipeBlocked.@Tooltip": "Golden items cannot be crafted if you don't stand near Golden Smithing Table (or better smithing table)",
   "text.autoconfig.frycmod.option.isDiamondRecipeBlocked": "Block diamond recipes [Restart required]",
   "text.autoconfig.frycmod.option.isDiamondRecipeBlocked.@Tooltip": "Diamond items cannot be crafted if you don't stand near Diamond Smithing Table",
+  "text.autoconfig.frycmod.option.isMiscRecipeBlocked": "Block ingots recipes [Restart required]",
+  "text.autoconfig.frycmod.option.isMiscRecipeBlocked.@Tooltip": "Nuggets, ingots and blocks from ingots cannot be crafted if you don't stand near Furnace or Blast Furnace",
 
   "text.autoconfig.frycmod.option.isTradeOffersModified": "Modify trade offers [Restart required]",
   "text.autoconfig.frycmod.option.isTradeOffersModified.@Tooltip": "Modifies trade offers for Armorer, Toolsmith and Weaponsmith (may break trade offers from other mods)",
@@ -238,6 +220,32 @@
   "text.autoconfig.frycmod.option.forceModifiedTradeOffers": "Force trade offers from Frycmod (!!! Trade offers from other mods will not work !!!)",
   "text.autoconfig.frycmod.option.forceModifiedTradeOffers.@Tooltip": "Modifies trade offers for Armorer, Toolsmith and Weaponsmith and prevents other mods from adding new trade offers (or changing existing ones) for ALL professions",
 
+  "text.autoconfig.frycmod.option.enableDarknessAtLowHp": "Enable darkness at low HP",
+  "text.autoconfig.frycmod.option.enableDarknessAtLowHp.@Tooltip": "Player will get darkness after taking damage at low HP",
   "text.autoconfig.frycmod.option.enableBlindnessAtLowHp": "Enable blindness at low HP",
-  "text.autoconfig.frycmod.option.enableBlindnessAtLowHp.@Tooltip": "Player will get blindness at 1 hp"
+  "text.autoconfig.frycmod.option.enableBlindnessAtLowHp.@Tooltip": "Player will get blindness at 1 hp",
+
+  "text.autoconfig.frycmod.option.bleedoutKills": "Bleed out can kill",
+  "text.autoconfig.frycmod.option.bleedingStopsFoodHealing": "Bleeding stops food healing",
+  "text.autoconfig.frycmod.option.enableMeleeEffectUpgrading": "Melee attacks upgrade bleeding (or health loss, when attacked by spider)",
+  "text.autoconfig.frycmod.option.enableMeleeEffectUpgrading.@Tooltip": "While having Bleed I, player will get Bleed II with increased duration after getting damage from melee attack",
+  "text.autoconfig.frycmod.option.enableArrowEffectUpgrading": "Arrows upgrade bleeding",
+  "text.autoconfig.frycmod.option.enableArrowEffectUpgrading.@Tooltip": "While having Bleed I, player will get Bleed II with increased duration after getting damage from arrow",
+
+  "text.autoconfig.frycmod.option.meleeBleedLength": "Length of bleeding from melee attacks",
+  "text.autoconfig.frycmod.option.arrowBleedLength": "Length of bleeding from arrows",
+  "text.autoconfig.frycmod.option.healthLossLength": "Length of health loss from spider attacks",
+
+  "text.autoconfig.frycmod.option.zombieToForgottenConvertLevelY": "Convert zombies to forgotten under selected Y level:",
+  "text.autoconfig.frycmod.option.zombieToForgottenConvertLevelY.@Tooltip": "Zombies have a chance to convert into stronger variant when they spawn below this Y level",
+
+  "text.autoconfig.frycmod.option.spiderToBlackSpiderConvertLevelY": "Convert spiders to black spiders under selected Y level:",
+  "text.autoconfig.frycmod.option.spiderToBlackSpiderConvertLevelY.@Tooltip": "Spiders have a chance to convert into stronger variant when they spawn below this Y level",
+
+  "text.autoconfig.frycmod.option.skeletonToUndeadWarriorConvertLevelY": "Convert skeletons to undead warriors under selected Y level:",
+  "text.autoconfig.frycmod.option.skeletonToUndeadWarriorConvertLevelY.@Tooltip": "Skeletons have a chance to convert into stronger variant when they spawn below this Y level",
+
+  "text.autoconfig.frycmod.option.playToolsAndArmorOnCraftSounds":  "Play smithing sound when player crafts tools and armor [Restart required]",
+  "text.autoconfig.frycmod.option.playIngotsFromFurnaceOnCraftSounds":  "Play extinguish sound when player crafts ingots, nuggets and blocks from ingots [Restart required]",
+  "text.autoconfig.frycmod.option.playBlocksOnCraftSounds":  "Play block breaking sound when player crafts wooden or stone blocks (or items) [Restart required]"
 }

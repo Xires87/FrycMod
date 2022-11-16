@@ -21,6 +21,8 @@ public class CraftingRules {
             tooltips = new String[]{"", "", "", "", "", ""};
         }
 
+        RecipeBlockingRules VANILLA_GOLDEN_ITEMS = new RecipeBlockingRules("Recipe disabled by: Frycmod", ModItemTags.VANILLA_GOLDEN_TOOLS);
+
         if(FrycMod.config.isCopperRecipeBlocked){
             StandNearBlockRBR COPPER = new StandNearBlockRBR(tooltips[0], ModItemTags.NEEDS_COPPER_TABLE, ModBlockTags.TABLES);
         }
@@ -37,17 +39,21 @@ public class CraftingRules {
             StandNearBlockRBR INGOTS = new StandNearBlockRBR(tooltips[4], ModItemTags.SOUND_INGOTS_FROM_FURNACE, ModBlockTags.FURNACES_FOR_INGOTS);
             ItemInInventoryRBR NETHERITE_INGOT = new ItemInInventoryRBR(tooltips[5], ModItemTags.NETHERITE_INGOT, ModItemTags.DIAMOND_HAMMERS);
         }
-        RecipeBlockingRules VANILLA_GOLDEN_ITEMS = new RecipeBlockingRules("Recipe disabled by: Frycmod", ModItemTags.VANILLA_GOLDEN_TOOLS);
 
         //playing sounds
-        if(FrycMod.config.playOnCraftSounds){
-            PlaySoundOCR TOOLS_AND_ARMOR = new PlaySoundOCR(ModItemTags.SOUND_TOOLS_AND_ARMOR, SoundEvents.BLOCK_SMITHING_TABLE_USE,0.2f, 1.0f);
-            PlaySoundOCR BONE_ARMORS = new PlaySoundOCR(ModItemTags.SOUND_BONE_ARMORS, SoundEvents.ENTITY_SKELETON_STEP,0.6f, 0.4f);
+        if(FrycMod.config.playToolsAndArmorOnCraftSounds) {
+            PlaySoundOCR TOOLS_AND_ARMOR = new PlaySoundOCR(ModItemTags.SOUND_TOOLS_AND_ARMOR, SoundEvents.BLOCK_SMITHING_TABLE_USE, 0.2f, 1.0f);
+            PlaySoundOCR BONE_ARMORS = new PlaySoundOCR(ModItemTags.SOUND_BONE_ARMORS, SoundEvents.ENTITY_SKELETON_STEP, 0.6f, 0.4f);
+        }
+        if(FrycMod.config.playIngotsFromFurnaceOnCraftSounds){
+            PlaySoundOCR INGOTS_FROM_FURNACE = new PlaySoundOCR(ModItemTags.SOUND_INGOTS_FROM_FURNACE, SoundEvents.ENTITY_GENERIC_EXTINGUISH_FIRE,0.6f, 1.0f);
+        }
+        if(FrycMod.config.playBlocksOnCraftSounds){
             PlaySoundOCR WOOD = new PlaySoundOCR(ModItemTags.SOUND_WOOD, SoundEvents.BLOCK_WOOD_BREAK,0.65f, 0.75f);
             //sandstone todo
             PlaySoundOCR STONE = new PlaySoundOCR(ModItemTags.SOUND_STONE, SoundEvents.BLOCK_STONE_BREAK,0.65f, 0.75f);
             PlaySoundOCR DEEPSLATE = new PlaySoundOCR(ModItemTags.SOUND_DEEPSLATE, SoundEvents.BLOCK_DEEPSLATE_BREAK,0.65f, 0.75f);
-            PlaySoundOCR INGOTS_FROM_FURNACE = new PlaySoundOCR(ModItemTags.SOUND_INGOTS_FROM_FURNACE, SoundEvents.ENTITY_GENERIC_EXTINGUISH_FIRE,0.6f, 1.0f);
         }
+
     }
 }

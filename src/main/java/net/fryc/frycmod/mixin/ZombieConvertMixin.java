@@ -1,7 +1,7 @@
 package net.fryc.frycmod.mixin;
 
+import net.fryc.frycmod.FrycMod;
 import net.fryc.frycmod.entity.mobs.ModMobs;
-import net.fryc.frycmod.gamerules.ModGameRules;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.mob.ZombieEntity;
@@ -32,8 +32,8 @@ abstract class ZombieConvertMixin extends HostileEntity {
             ZombieEntity zombie = ((ZombieEntity)(Object)this);
             if(zombie.getName().contains(Text.of("Zombie")) && !zombie.isBaby()){ //baby forgotten had the same hitboxes as adult forgotten (I didn't know how to fix it)
                 int i = (int)zombie.getY();
-                if(canConvert && i < world.getGameRules().getInt(ModGameRules.FORGOTTEN_SPAWN_LEVEL)){
-                    if(random.nextInt(i, 100 + i) < world.getGameRules().getInt(ModGameRules.FORGOTTEN_SPAWN_LEVEL)){ // ~26% to convert on 0Y level (default)
+                if(canConvert && i < FrycMod.config.zombieToForgottenConvertLevelY){
+                    if(random.nextInt(i, 100 + i) < FrycMod.config.zombieToForgottenConvertLevelY){ // ~26% to convert on 0Y level (default)
                         zombie.convertTo(ModMobs.FORGOTTEN, true);
                     }
                     canConvert = false;

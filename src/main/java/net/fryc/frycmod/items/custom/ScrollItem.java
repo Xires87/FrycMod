@@ -5,6 +5,8 @@ import net.fryc.frycmod.tag.ModItemTags;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
@@ -30,16 +32,19 @@ public class ScrollItem extends Item {
             if(off.isOf(ModItems.MAGIC_SCROLL_ARMOR) && main.getItem() instanceof ArmorItem){
                 main.addEnchantment(scrollArmor(), 1);
                 off.setCount(off.getCount() - 1);
+                user.getWorld().playSound(user, user.getBlockPos(), SoundEvents.BLOCK_ENCHANTMENT_TABLE_USE, SoundCategory.PLAYERS, 0.7f, 1.0f);
                 return TypedActionResult.consume(stack);
             }
             else if(off.isOf(ModItems.MAGIC_SCROLL_WEAPON) && (main.getItem() instanceof SwordItem || main.getItem() instanceof AxeItem)){
                 main.addEnchantment(scrollWeapon(), 1);
                 off.setCount(off.getCount() - 1);
+                user.getWorld().playSound(user, user.getBlockPos(), SoundEvents.BLOCK_ENCHANTMENT_TABLE_USE, SoundCategory.PLAYERS, 0.7f, 1.0f);
                 return TypedActionResult.consume(stack);
             }
             else if(off.isOf(ModItems.MAGIC_SCROLL_TOOL) && main.getItem() instanceof MiningToolItem){
                 main.addEnchantment(scrollTool(), 1);
                 off.setCount(off.getCount() - 1);
+                user.getWorld().playSound(user, user.getBlockPos(), SoundEvents.BLOCK_ENCHANTMENT_TABLE_USE, SoundCategory.PLAYERS, 0.7f, 1.0f);
                 return TypedActionResult.consume(stack);
             }
 

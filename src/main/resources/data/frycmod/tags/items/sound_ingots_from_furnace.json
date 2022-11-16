@@ -9,7 +9,6 @@
     "minecraft:gold_ingot",
     "minecraft:gold_block",
     "minecraft:gold_nugget",
-    "minecraft:netherite_scrap",
-    "frycmod:ancient_remains"
+    "minecraft:netherite_scrap"
   ]
 }

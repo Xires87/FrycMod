@@ -1,7 +1,7 @@
 package net.fryc.frycmod.effects;
 
+import net.fryc.frycmod.FrycMod;
 import net.fryc.frycmod.entity.damage.BleedDamageSource;
-import net.fryc.frycmod.gamerules.ModGameRules;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
@@ -15,7 +15,7 @@ public class BleedoutEffect extends StatusEffect {
     @Override
     public void applyUpdateEffect(LivingEntity pLivingEntity, int pAmplifier) {
         if (!pLivingEntity.world.isClient()) {
-            if(pLivingEntity.getActiveStatusEffects().containsKey(ModEffects.BLEED_EFFECT) && pLivingEntity.getActiveStatusEffects().get(ModEffects.BLEEDOUT).getDuration() > 1800 && pLivingEntity.getWorld().getGameRules().getBoolean(ModGameRules.BLEEDOUT_KILLS)) pLivingEntity.damage(BleedDamageSource.bleed(), 200);
+            if(pLivingEntity.getActiveStatusEffects().containsKey(ModEffects.BLEED_EFFECT) && pLivingEntity.getActiveStatusEffects().get(ModEffects.BLEEDOUT).getDuration() > 1800 && FrycMod.config.bleedoutKills) pLivingEntity.damage(BleedDamageSource.bleed(), 200);
         }
 
         super.applyUpdateEffect(pLivingEntity, pAmplifier);
