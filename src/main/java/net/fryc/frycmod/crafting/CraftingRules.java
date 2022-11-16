@@ -44,13 +44,13 @@ public class CraftingRules {
         if(FrycMod.config.playToolsAndArmorOnCraftSounds) {
             PlaySoundOCR TOOLS_AND_ARMOR = new PlaySoundOCR(ModItemTags.SOUND_TOOLS_AND_ARMOR, SoundEvents.BLOCK_SMITHING_TABLE_USE, 0.2f, 1.0f);
             PlaySoundOCR BONE_ARMORS = new PlaySoundOCR(ModItemTags.SOUND_BONE_ARMORS, SoundEvents.ENTITY_SKELETON_STEP, 0.6f, 0.4f);
+            PlaySoundOCR CHAIN_ARMORS = new PlaySoundOCR(ModItemTags.SOUND_CHAIN_ARMORS, SoundEvents.BLOCK_CHAIN_PLACE, 0.6f, 0.7f);
         }
         if(FrycMod.config.playIngotsFromFurnaceOnCraftSounds){
             PlaySoundOCR INGOTS_FROM_FURNACE = new PlaySoundOCR(ModItemTags.SOUND_INGOTS_FROM_FURNACE, SoundEvents.ENTITY_GENERIC_EXTINGUISH_FIRE,0.6f, 1.0f);
         }
         if(FrycMod.config.playBlocksOnCraftSounds){
             PlaySoundOCR WOOD = new PlaySoundOCR(ModItemTags.SOUND_WOOD, SoundEvents.BLOCK_WOOD_BREAK,0.65f, 0.75f);
-            //sandstone todo
             PlaySoundOCR STONE = new PlaySoundOCR(ModItemTags.SOUND_STONE, SoundEvents.BLOCK_STONE_BREAK,0.65f, 0.75f);
             PlaySoundOCR DEEPSLATE = new PlaySoundOCR(ModItemTags.SOUND_DEEPSLATE, SoundEvents.BLOCK_DEEPSLATE_BREAK,0.65f, 0.75f);
         }

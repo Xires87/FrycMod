@@ -190,43 +190,25 @@
   "item.frycmod.undead_warrior_spawn_egg": "Jajo przyzywające Nieumarłego Wojownika",
   "item.frycmod.armored_spider_spawn_egg": "Jajo przyzywające Czarnego Pająka",
 
-
-  "gamerule.bleedoutKills": "Wykrwawienie może zabić",
-  "gamerule.bleedingStopsFoodHealing": "Krwawienie zatrzymuje leczenie jedzeniem",
-  "gamerule.enableMeleeEffectUpgrading": "Ataki wręcz ulepszają krwawienie",
-  "gamerule.enableMeleeEffectUpgrading.description": "Kiedy gracz krwawi, otrzyma Krwawienie II, które trwa dłużej, po otrzymaniu obrażeń od ataku wręcz",
-  "gamerule.enableArrowEffectUpgrading": "Strzały ulepszają krwawienie",
-  "gamerule.enableArrowEffectUpgrading.description": "Kiedy gracz krwawi, otrzyma Krwawienie II, które trwa dłużej, po otrzymaniu obrażeń od strzały",
-  "gamerule.enableDarknessAtLowHp": "Gracz otrzymuje efekt Ciemność gdy otrzymuje obrażenia i ma niski poziom zdrowia",
-
-  "gamerule.meleeBleedLength": "Długość krwawienia od ataków wręcz",
-  "gamerule.arrowBleedLength": "Długość krwawienia od strzał",
-  "gamerule.healthLossLength": "Długość utraty zdrowia od ataków pająka",
-
-  "gamerule.zombieToForgottenConvertLevelY": "Przemień zombie w zapomnianych poniżej poziomu Y:",
-  "gamerule.zombieToForgottenConvertLevelY.description": "Zombie mają szansę zmienić się w silniejszy wariant kiedy pojawiają się poniżej podanego poziomu",
-
-  "gamerule.spiderToBlackSpiderConvertLevelY": "Przemień pająki w czarne pająki poniżej poziomu Y:",
-  "gamerule.spiderToBlackSpiderConvertLevelY.description": "Pająki mają szansę zmienić się w silniejszy wariant kiedy pojawiają się poniżej podanego poziomu",
-
-  "gamerule.skeletonToUndeadWarriorConvertLevelY": "Przemień szkielety w nieumarłych wojowników poniżej poziomu Y:",
-  "gamerule.skeletonToUndeadWarriorConvertLevelY.description": "Szkielety mają szansę zmienić się w silniejszy wariant kiedy pojawiają się poniżej podanego poziomu",
-
   "text.autoconfig.frycmod.title": "Konfiguracja Frycmod",
   "text.autoconfig.frycmod.category.recipes": "Przedmioty i Receptury",
+  "text.autoconfig.frycmod.category.bleeding": "Krwawienie",
   "text.autoconfig.frycmod.category.trades": "Oferty Handlowe",
+  "text.autoconfig.frycmod.category.mobs": "Moby",
   "text.autoconfig.frycmod.category.other": "Inne",
 
   "text.autoconfig.frycmod.option.isTooltipsEnabled": "Dodaj podpisy dla przedmiotów, które wymagają stołu kowalskiego do wytworzenia [Wymagany Restart]",
   "text.autoconfig.frycmod.option.isTooltipsEnabled.@Tooltip": "Dodaje podpisy informujące który stół kowalski jest wymagany aby stworzyć przedmiot",
-  "text.autoconfig.frycmod.option.isCopperRecipeBlocked": "Zablokuj miedziane receptury [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.isCopperRecipeBlocked": "Blokuj miedziane receptury [Wymagany Restart]",
   "text.autoconfig.frycmod.option.isCopperRecipeBlocked.@Tooltip": "Miedziane przedmioty nie mogą zostać wytworzone jeśli nie stoisz przy Miedzianym Stole Kowalskim (lub lepszym stole kowalskim)",
-  "text.autoconfig.frycmod.option.isIronRecipeBlocked": "Zablokuj żelazne receptury [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.isIronRecipeBlocked": "Blokuj żelazne receptury [Wymagany Restart]",
   "text.autoconfig.frycmod.option.isIronRecipeBlocked.@Tooltip": "Żelazne przedmioty nie mogą zostać wytworzone jeśli nie stoisz przy Żelaznym Stole Kowalskim (lub lepszym stole kowalskim)",
-  "text.autoconfig.frycmod.option.isGoldRecipeBlocked": "Zablokuj złote receptury [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.isGoldRecipeBlocked": "Blokuj złote receptury [Wymagany Restart]",
   "text.autoconfig.frycmod.option.isGoldRecipeBlocked.@Tooltip": "Złote przedmioty nie mogą zostać wytworzone jeśli nie stoisz przy Złotym Stole Kowalskim (lub lepszym stole kowalskim)",
-  "text.autoconfig.frycmod.option.isDiamondRecipeBlocked": "Zablokuj diamentowe receptury [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.isDiamondRecipeBlocked": "Blokuj diamentowe receptury [Wymagany Restart]",
   "text.autoconfig.frycmod.option.isDiamondRecipeBlocked.@Tooltip": "Diamentowe przedmioty nie mogą zostać wytworzone jeśli nie stoisz przy Diamentowym Stole Kowalskim",
+  "text.autoconfig.frycmod.option.isMiscRecipeBlocked": "Blokuj receptury dla sztabek [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.isMiscRecipeBlocked.@Tooltip": "Samorodki, sztabki i bloki wykonane ze sztabek nie mogą zostać wytworzone jeśli nie stoisz przy Piecu lub Piecu Hutniczym",
 
   "text.autoconfig.frycmod.option.isTradeOffersModified": "Zmodyfikuj oferty handlowe [Wymagany Restart]",
   "text.autoconfig.frycmod.option.isTradeOffersModified.@Tooltip": "Modyfikuje oferty dla Płatnerza, Narzędziarza (XD) i Zbrojmistrza (może zepsuć oferty z innych modów)",
@@ -235,5 +217,31 @@
   "text.autoconfig.frycmod.option.forceModifiedTradeOffers.@Tooltip": "Modyfikuje oferty dla Płatnerza, Narzędziarza i Zbrojmistrza i powstrzymuje inne mody przed dodawaniem nowych ofert (lub zmienianiem istniejących) dla WSZYSTKICH profesji",
 
   "text.autoconfig.frycmod.option.enableBlindnessAtLowHp": "Włącz oślepienie przy niskim zdrowiu",
-  "text.autoconfig.frycmod.option.enableBlindnessAtLowHp.@Tooltip": "Gracz dostanie oślepienie, gdy jego zdrowie będzie wynosić 1"
+  "text.autoconfig.frycmod.option.enableBlindnessAtLowHp.@Tooltip": "Gracz dostanie oślepienie, gdy jego zdrowie będzie wynosić 1",
+  "text.autoconfig.frycmod.option.enableDarknessAtLowHp": "Włącz ciemność przy niskim zdrowiu",
+  "text.autoconfig.frycmod.option.enableDarknessAtLowHp.@Tooltip": "Gracz dostanie ciemność, po otrzymaniu obrażen na niskim zdrowiu",
+
+  "text.autoconfig.frycmod.option.bleedoutKills": "Wykrwawienie może zabić",
+  "text.autoconfig.frycmod.option.bleedingStopsFoodHealing": "Krwawienie zatrzymuje leczenie z jedzenia",
+  "text.autoconfig.frycmod.option.enableMeleeEffectUpgrading": "Ataki wręcz ulepszają krwawienie (lub utratę zdrowia, kiedy atakuje pająk)",
+  "text.autoconfig.frycmod.option.enableMeleeEffectUpgrading.@Tooltip": "Kiedy gracz ma Krwawienie I i otrzyma obrażenia od ataku wręcz, dostanie Krwawienie II, które dodatkowo będzie trwało dłużej",
+  "text.autoconfig.frycmod.option.enableArrowEffectUpgrading": "Strzały ulepszają krwawienie",
+  "text.autoconfig.frycmod.option.enableArrowEffectUpgrading.@Tooltip": "Kiedy gracz ma Krwawienie I i otrzyma obrażenia od strzały, dostanie Krwawienie II, które dodatkowo będzie trwało dłużej",
+
+  "text.autoconfig.frycmod.option.meleeBleedLength": "Długość krwawienia od ataków wręcz",
+  "text.autoconfig.frycmod.option.arrowBleedLength": "Długość krwawienia od strzał",
+  "text.autoconfig.frycmod.option.healthLossLength": "Długość utraty zdrowia od ataków pająków",
+
+  "text.autoconfig.frycmod.option.zombieToForgottenConvertLevelY": "Przemień Zombie w Zapomnianych poniżej wybranego poziomu Y:",
+  "text.autoconfig.frycmod.option.zombieToForgottenConvertLevelY.@Tooltip": "Zombie mają szansę zmienić się w silniejszy wariant kiedy pojawiają się poniżej tego poziomu Y",
+
+  "text.autoconfig.frycmod.option.spiderToBlackSpiderConvertLevelY": "Przemień Pająki w Czarne Pająki poniżej wybranego poziomu Y:",
+  "text.autoconfig.frycmod.option.spiderToBlackSpiderConvertLevelY.@Tooltip": "Pająki mają szansę zmienić się w silniejszy wariant kiedy pojawiają się poniżej tego poziomu Y",
+
+  "text.autoconfig.frycmod.option.skeletonToUndeadWarriorConvertLevelY": "Przemień Szkielety w Nieumarłych Wojowników poniżej wybranego poziomu Y:",
+  "text.autoconfig.frycmod.option.skeletonToUndeadWarriorConvertLevelY.@Tooltip": "Szkielety mają szansę zmienić się w silniejszy wariant kiedy pojawiają się poniżej tego poziomu Y",
+
+  "text.autoconfig.frycmod.option.playToolsAndArmorOnCraftSounds":  "Odtwórz dźwięk kucia kiedy gracz tworzy zbroję lub narzędzia [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.playIngotsFromFurnaceOnCraftSounds":  "Odtwórz dźwięk gaszenia (GORONCE!) kiedy gracz tworzy sztabki, samorodki lub bloki ze sztabek [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.playBlocksOnCraftSounds":  "Odtwórz dźwięk niszczenia bloku kiedy gracz tworzy najbardziej pospolite bloki (np. deski)  [Wymagany Restart]"
 }

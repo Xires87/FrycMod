@@ -247,5 +247,5 @@
 
   "text.autoconfig.frycmod.option.playToolsAndArmorOnCraftSounds":  "Play smithing sound when player crafts tools and armor [Restart required]",
   "text.autoconfig.frycmod.option.playIngotsFromFurnaceOnCraftSounds":  "Play extinguish sound when player crafts ingots, nuggets and blocks from ingots [Restart required]",
-  "text.autoconfig.frycmod.option.playBlocksOnCraftSounds":  "Play block breaking sound when player crafts wooden or stone blocks (or items) [Restart required]"
+  "text.autoconfig.frycmod.option.playBlocksOnCraftSounds":  "Play block breaking sound when player crafts the most common blocks (like planks)  [Restart required]"
 }

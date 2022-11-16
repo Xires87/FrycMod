@@ -32,6 +32,7 @@ public final class ModItemTags {
     public static final TagKey<Item> SOUND_DEEPSLATE = ModItemTags.register("sound_deepslate");
     public static final TagKey<Item> SOUND_INGOTS_FROM_FURNACE = ModItemTags.register("sound_ingots_from_furnace");
     public static final TagKey<Item> SOUND_BONE_ARMORS = ModItemTags.register("sound_bone_armors");
+    public static final TagKey<Item> SOUND_CHAIN_ARMORS = ModItemTags.register("sound_chain_armors");
 
 
 
