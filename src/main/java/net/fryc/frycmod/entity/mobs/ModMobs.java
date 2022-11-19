@@ -3,6 +3,7 @@ package net.fryc.frycmod.entity.mobs;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.fryc.frycmod.FrycMod;
+import net.fryc.frycmod.entity.mobs.renderer.CaveCreeperEntityRenderer;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
@@ -26,10 +27,16 @@ public class ModMobs {
             new Identifier(FrycMod.MOD_ID, "armored_spider"),
             FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, ArmoredSpiderEntity::new).dimensions(EntityDimensions.fixed(1.4F, 0.9F)).build());
 
+    public static final EntityType<CaveCreeperEntity> CAVE_CREEPER = Registry.register(
+            Registry.ENTITY_TYPE,
+            new Identifier(FrycMod.MOD_ID, "cave_creeper"),
+            FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, CaveCreeperEntity::new).dimensions(EntityDimensions.fixed(0.6F, 1.73F)).build());
+
     public static void registerModMobs(){
         FabricDefaultAttributeRegistry.register(FORGOTTEN, ForgottenEntity.createForgottenAttributes());
         FabricDefaultAttributeRegistry.register(UNDEAD_WARRIOR, UndeadWarriorEntity.createUndeadWarriorAttributes());
         FabricDefaultAttributeRegistry.register(ARMORED_SPIDER, ArmoredSpiderEntity.createArmoredSpiderAttributes());
+        FabricDefaultAttributeRegistry.register(CAVE_CREEPER, CaveCreeperEntity.createCreeperAttributes());
 
     }
 }

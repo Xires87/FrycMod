@@ -95,5 +95,5 @@ public class FrycmodConfig implements ConfigData {
     public boolean playIngotsFromFurnaceOnCraftSounds = true;
 
     @ConfigEntry.Category("other")
-    public boolean playBlocksOnCraftSounds = true;
+    public boolean playBlocksOnCraftSounds = false;
 }

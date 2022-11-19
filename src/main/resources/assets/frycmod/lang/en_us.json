@@ -188,10 +188,12 @@
   "entity.frycmod.armored_spider": "Black Spider",
   "entity.frycmod.undead_warrior": "Undead Warrior",
   "entity.frycmod.forgotten": "Forgotten",
+  "entity.frycmod.cave_creeper": "Cave Creeper",
 
   "item.frycmod.forgotten_spawn_egg": "Forgotten Spawn Egg",
   "item.frycmod.undead_warrior_spawn_egg": "Undead Warrior Spawn Egg",
   "item.frycmod.armored_spider_spawn_egg": "Black Spider Spawn Egg",
+  "item.frycmod.cave_creeper_spawn_egg": "Cave Creeper Spawn Egg",
 
 
   "text.autoconfig.frycmod.title": "Frycmod Config",
@@ -247,5 +249,5 @@
 
   "text.autoconfig.frycmod.option.playToolsAndArmorOnCraftSounds":  "Play smithing sound when player crafts tools and armor [Restart required]",
   "text.autoconfig.frycmod.option.playIngotsFromFurnaceOnCraftSounds":  "Play extinguish sound when player crafts ingots, nuggets and blocks from ingots [Restart required]",
-  "text.autoconfig.frycmod.option.playBlocksOnCraftSounds":  "Play block breaking sound when player crafts the most common blocks (like planks)  [Restart required]"
+  "text.autoconfig.frycmod.option.playBlocksOnCraftSounds":  "Play block breaking sound when player crafts blocks (not done yet, not all blocks have sound) [Restart required]"
 }
