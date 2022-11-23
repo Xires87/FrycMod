@@ -408,8 +408,11 @@ public class ModItems {
             new BandageItem(new FabricItemSettings().maxCount(16).group(ItemGroup.MISC)));
     public static final Item HONEY_BANDAGE = registerItem("honey_bandage" ,
             new BandageItem(new FabricItemSettings().maxCount(16).group(ItemGroup.MISC)));
+
     public static final Item STICKY_BANDAGE = registerItem("sticky_bandage" ,
             new StickyBandageItem(new FabricItemSettings().maxCount(16).group(ItemGroup.MISC)));
+    public static final Item HERBAL_BALM = registerItem("herbal_balm" ,
+            new BalmItem(new FabricItemSettings().maxCount(1).group(ItemGroup.MISC)));
 
     //other----------------------------------------------------------------------------------------------
     public static final Item WITHER_BONE = registerItem("wither_bone" ,

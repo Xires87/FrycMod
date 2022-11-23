@@ -134,7 +134,7 @@
   "item.frycmod.diamond_golden_leggings": "Reinforced Golden Leggings",
   "item.frycmod.diamond_golden_boots": "Reinforced Golden Boots",
 
-  "effect.frycmod.bleed": "Bleed",
+  "effect.frycmod.bleed": "Bleeding",
   "effect.frycmod.bleedout": "Bleed out",
   "effect.frycmod.health_loss": "Health Loss",
   "effect.frycmod.immunity": "Immunity",
@@ -142,6 +142,7 @@
   "item.frycmod.bandage": "Bandage",
   "item.frycmod.honey_bandage": "Honey Bandage",
   "item.frycmod.sticky_bandage": "Sticky Bandage",
+  "item.frycmod.herbal_balm": "Herbal Balm",
 
   "item.minecraft.potion.effect.wither_potion": "Potion of Decay",
   "item.minecraft.splash_potion.effect.wither_potion": "Splash Potion of Decay",
@@ -216,11 +217,13 @@
   "text.autoconfig.frycmod.option.isMiscRecipeBlocked": "Block ingots recipes [Restart required]",
   "text.autoconfig.frycmod.option.isMiscRecipeBlocked.@Tooltip": "Nuggets, ingots and blocks from ingots cannot be crafted if you don't stand near Furnace or Blast Furnace",
 
-  "text.autoconfig.frycmod.option.isTradeOffersModified": "Modify trade offers [Restart required]",
-  "text.autoconfig.frycmod.option.isTradeOffersModified.@Tooltip": "Modifies trade offers for Armorer, Toolsmith and Weaponsmith (may break trade offers from other mods)",
+  "text.autoconfig.frycmod.option.modifyTradeOffersForLibrarian": "Modify trade offers for Librarian [Restart required]",
+  "text.autoconfig.frycmod.option.modifyTradeOffersForToolsmith": "Modify trade offers for Toolsmith [Restart required]",
+  "text.autoconfig.frycmod.option.modifyTradeOffersForWeaponsmith": "Modify trade offers for Weaponsmith [Restart required]",
+  "text.autoconfig.frycmod.option.modifyTradeOffersForArmorer": "Modify trade offers for Armorer [Restart required]",
 
   "text.autoconfig.frycmod.option.forceModifiedTradeOffers": "Force trade offers from Frycmod (!!! Trade offers from other mods will not work !!!)",
-  "text.autoconfig.frycmod.option.forceModifiedTradeOffers.@Tooltip": "Modifies trade offers for Armorer, Toolsmith and Weaponsmith and prevents other mods from adding new trade offers (or changing existing ones) for ALL professions",
+  "text.autoconfig.frycmod.option.forceModifiedTradeOffers.@Tooltip": "Modifies trade offers for Armorer, Toolsmith, Librarian and Weaponsmith and prevents other mods from adding new trade offers (or changing existing ones) for ALL professions",
 
   "text.autoconfig.frycmod.option.enableDarknessAtLowHp": "Enable darkness at low HP",
   "text.autoconfig.frycmod.option.enableDarknessAtLowHp.@Tooltip": "Player will get darkness after taking damage at low HP",
@@ -229,10 +232,11 @@
 
   "text.autoconfig.frycmod.option.bleedoutKills": "Bleed out can kill",
   "text.autoconfig.frycmod.option.bleedingStopsFoodHealing": "Bleeding stops food healing",
+  "text.autoconfig.frycmod.option.fireDamageLowersBleedingDuration": "Fire damage lowers bleeding duration",
   "text.autoconfig.frycmod.option.enableMeleeEffectUpgrading": "Melee attacks upgrade bleeding (or health loss, when attacked by spider)",
-  "text.autoconfig.frycmod.option.enableMeleeEffectUpgrading.@Tooltip": "While having Bleed I, player will get Bleed II with increased duration after getting damage from melee attack",
+  "text.autoconfig.frycmod.option.enableMeleeEffectUpgrading.@Tooltip": "While having Bleeding I, player will get Bleeding II with increased duration after getting damage from melee attack",
   "text.autoconfig.frycmod.option.enableArrowEffectUpgrading": "Arrows upgrade bleeding",
-  "text.autoconfig.frycmod.option.enableArrowEffectUpgrading.@Tooltip": "While having Bleed I, player will get Bleed II with increased duration after getting damage from arrow",
+  "text.autoconfig.frycmod.option.enableArrowEffectUpgrading.@Tooltip": "While having Bleeding I, player will get Bleeding II with increased duration after getting damage from arrow",
 
   "text.autoconfig.frycmod.option.meleeBleedLength": "Length of bleeding from melee attacks",
   "text.autoconfig.frycmod.option.arrowBleedLength": "Length of bleeding from arrows",
@@ -246,6 +250,9 @@
 
   "text.autoconfig.frycmod.option.skeletonToUndeadWarriorConvertLevelY": "Convert skeletons to undead warriors under selected Y level:",
   "text.autoconfig.frycmod.option.skeletonToUndeadWarriorConvertLevelY.@Tooltip": "Skeletons have a chance to convert into stronger variant when they spawn below this Y level",
+
+  "text.autoconfig.frycmod.option.creeperToCaveCreeperConvertLevelY": "Convert creepers to cave creepers under selected Y level:",
+  "text.autoconfig.frycmod.option.creeperToCaveCreeperConvertLevelY.@Tooltip": "Creepers have a chance to convert into stronger variant when they spawn below this Y level",
 
   "text.autoconfig.frycmod.option.playToolsAndArmorOnCraftSounds":  "Play smithing sound when player crafts tools and armor [Restart required]",
   "text.autoconfig.frycmod.option.playIngotsFromFurnaceOnCraftSounds":  "Play extinguish sound when player crafts ingots, nuggets and blocks from ingots [Restart required]",

@@ -139,6 +139,7 @@
   "item.frycmod.bandage": "Bandaż",
   "item.frycmod.honey_bandage": "Bandaż z Miodem",
   "item.frycmod.sticky_bandage": "Lepki Bandaż",
+  "item.frycmod.herbal_balm": "Ziołowy Balsam",
 
   "item.minecraft.potion.effect.wither_potion": "Mikstura Rozkładu",
   "item.minecraft.splash_potion.effect.wither_potion": "Miotana Mikstura Rozkładu",
@@ -185,10 +186,12 @@
   "entity.frycmod.armored_spider": "Czarny Pająk",
   "entity.frycmod.undead_warrior": "Nieumarły Wojownik",
   "entity.frycmod.forgotten": "Zapomniany",
+  "entity.frycmod.cave_creeper": "Jaskiniowy Creeper",
 
   "item.frycmod.forgotten_spawn_egg": "Jajo przyzywające Zapomnianego",
   "item.frycmod.undead_warrior_spawn_egg": "Jajo przyzywające Nieumarłego Wojownika",
   "item.frycmod.armored_spider_spawn_egg": "Jajo przyzywające Czarnego Pająka",
+  "item.frycmod.cave_creeper_spawn_egg": "Jajo przyzywające Jaskiniowego Creepera",
 
   "text.autoconfig.frycmod.title": "Konfiguracja Frycmod",
   "text.autoconfig.frycmod.category.recipes": "Przedmioty i Receptury",
@@ -210,11 +213,13 @@
   "text.autoconfig.frycmod.option.isMiscRecipeBlocked": "Blokuj receptury dla sztabek [Wymagany Restart]",
   "text.autoconfig.frycmod.option.isMiscRecipeBlocked.@Tooltip": "Samorodki, sztabki i bloki wykonane ze sztabek nie mogą zostać wytworzone jeśli nie stoisz przy Piecu lub Piecu Hutniczym",
 
-  "text.autoconfig.frycmod.option.isTradeOffersModified": "Zmodyfikuj oferty handlowe [Wymagany Restart]",
-  "text.autoconfig.frycmod.option.isTradeOffersModified.@Tooltip": "Modyfikuje oferty dla Płatnerza, Narzędziarza (XD) i Zbrojmistrza (może zepsuć oferty z innych modów)",
+  "text.autoconfig.frycmod.option.modifyTradeOffersForLibrarian": "Zmodyfikuj oferty handlowe Bibliotekarza [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.modifyTradeOffersForToolsmith": "Zmodyfikuj oferty handlowe Narzędziarza (XD) [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.modifyTradeOffersForWeaponsmith": "Zmodyfikuj oferty handlowe Zbrojmistrza [Wymagany Restart]",
+  "text.autoconfig.frycmod.option.modifyTradeOffersForArmorer": "Zmodyfikuj oferty handlowe Płatnerza [Wymagany Restart]",
 
   "text.autoconfig.frycmod.option.forceModifiedTradeOffers": "Wymuś oferty z Frycmod (!!! Oferty z innych modów nie będą działać !!!)",
-  "text.autoconfig.frycmod.option.forceModifiedTradeOffers.@Tooltip": "Modyfikuje oferty dla Płatnerza, Narzędziarza i Zbrojmistrza i powstrzymuje inne mody przed dodawaniem nowych ofert (lub zmienianiem istniejących) dla WSZYSTKICH profesji",
+  "text.autoconfig.frycmod.option.forceModifiedTradeOffers.@Tooltip": "Modyfikuje oferty dla Płatnerza, Narzędziarza, Bibliotekarza i Zbrojmistrza i powstrzymuje inne mody przed dodawaniem nowych ofert (lub zmienianiem istniejących) dla WSZYSTKICH profesji",
 
   "text.autoconfig.frycmod.option.enableBlindnessAtLowHp": "Włącz oślepienie przy niskim zdrowiu",
   "text.autoconfig.frycmod.option.enableBlindnessAtLowHp.@Tooltip": "Gracz dostanie oślepienie, gdy jego zdrowie będzie wynosić 1",
@@ -223,6 +228,7 @@
 
   "text.autoconfig.frycmod.option.bleedoutKills": "Wykrwawienie może zabić",
   "text.autoconfig.frycmod.option.bleedingStopsFoodHealing": "Krwawienie zatrzymuje leczenie z jedzenia",
+  "text.autoconfig.frycmod.option.fireDamageLowersBleedingDuration": "Obrażenia od ognia zmniejszają długość krwawienia",
   "text.autoconfig.frycmod.option.enableMeleeEffectUpgrading": "Ataki wręcz ulepszają krwawienie (lub utratę zdrowia, kiedy atakuje pająk)",
   "text.autoconfig.frycmod.option.enableMeleeEffectUpgrading.@Tooltip": "Kiedy gracz ma Krwawienie I i otrzyma obrażenia od ataku wręcz, dostanie Krwawienie II, które dodatkowo będzie trwało dłużej",
   "text.autoconfig.frycmod.option.enableArrowEffectUpgrading": "Strzały ulepszają krwawienie",
@@ -240,6 +246,9 @@
 
   "text.autoconfig.frycmod.option.skeletonToUndeadWarriorConvertLevelY": "Przemień Szkielety w Nieumarłych Wojowników poniżej wybranego poziomu Y:",
   "text.autoconfig.frycmod.option.skeletonToUndeadWarriorConvertLevelY.@Tooltip": "Szkielety mają szansę zmienić się w silniejszy wariant kiedy pojawiają się poniżej tego poziomu Y",
+
+  "text.autoconfig.frycmod.option.creeperToCaveCreeperConvertLevelY": "Przemień Creepery w Jaskinowe Creepery poniżej wybranego poziomu Y:",
+  "text.autoconfig.frycmod.option.creeperToCaveCreeperConvertLevelY.@Tooltip": "Creepery mają szansę zmienić się w silniejszy wariant kiedy pojawiają się poniżej tego poziomu Y",
 
   "text.autoconfig.frycmod.option.playToolsAndArmorOnCraftSounds":  "Odtwórz dźwięk kucia kiedy gracz tworzy zbroję lub narzędzia [Wymagany Restart]",
   "text.autoconfig.frycmod.option.playIngotsFromFurnaceOnCraftSounds":  "Odtwórz dźwięk gaszenia (GORONCE!) kiedy gracz tworzy sztabki, samorodki lub bloki ze sztabek [Wymagany Restart]",

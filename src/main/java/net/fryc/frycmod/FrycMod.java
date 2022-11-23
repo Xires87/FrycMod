@@ -42,12 +42,7 @@ public class FrycMod implements ModInitializer {
 		CraftingRules.createCraftingRules();
 
 		//trade offers
-		if(config.isTradeOffersModified){
-			ModTradeOffers.registerTradeOffers();
-		}
-		else {
-			ModTradeOffers.registerFabricTradeOffers();
-		}
+		ModTradeOffers.registerTradeOffers();
 
 		//other
 		ModItems.registerModItems();

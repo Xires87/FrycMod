@@ -14,6 +14,7 @@ import java.util.Iterator;
 public class CaveCreeperEntity extends CreeperEntity {
 
     private int explosionRadius = 3;
+    private int instantExplodeTime = 33;
 
     public CaveCreeperEntity(EntityType<? extends CreeperEntity> entityType, World world) {
         super(entityType, world);
@@ -22,7 +23,9 @@ public class CaveCreeperEntity extends CreeperEntity {
 
     public void tick(){
         if (this.isAlive()) {
-            if(this.isOnFire()) this.explode();
+            if(this.instantExplodeTime < 33) this.instantExplodeTime++;
+            if(this.isOnFire()) this.instantExplodeTime -= 3;
+            if(this.instantExplodeTime <= 0) this.explode();
         }
         super.tick();
     }

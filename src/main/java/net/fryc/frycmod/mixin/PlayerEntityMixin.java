@@ -69,6 +69,19 @@ abstract class PlayerEntityMixin extends LivingEntity {
             }
         }
 
+        if(source.isFire() && FrycMod.config.fireDamageLowersBleedingDuration){
+            if(player.hasStatusEffect(ModEffects.BLEED_EFFECT)){
+                int amp = player.getActiveStatusEffects().get(ModEffects.BLEED_EFFECT).getAmplifier();
+                int dur = player.getActiveStatusEffects().get(ModEffects.BLEED_EFFECT).getDuration();
+                if(amp == 0) dur -= 280;
+                else dur -= 120;
+                player.removeStatusEffect(player.getActiveStatusEffects().get(ModEffects.BLEED_EFFECT).getEffectType());
+                if(dur > 0){
+                    player.addStatusEffect(new StatusEffectInstance(ModEffects.BLEED_EFFECT, dur, amp));
+                }
+            }
+        }
+
     }
 
     //Stops food healing while bleeding
