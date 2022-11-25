@@ -24,6 +24,7 @@ public final class ModItemTags {
     public static final TagKey<Item> POWDER_SNOW_WALKABLE_BOOTS = ModItemTags.register("powder_snow_walkable_boots");
     public static final TagKey<Item> WITHER_ARMORS = ModItemTags.register("wither_armors");
     public static final TagKey<Item> SCROLLS = ModItemTags.register("scrolls");
+    public static final TagKey<Item> TULIPS = ModItemTags.register("tulips");
 
     //for sounds
     public static final TagKey<Item> SOUND_TOOLS_AND_ARMOR = ModItemTags.register("sound_tools_and_armor");
