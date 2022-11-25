@@ -36,8 +36,8 @@ abstract class SpiderConvertMixin extends HostileEntity {
                     if(random.nextInt(i, 100 + i) < FrycMod.config.spiderToBlackSpiderConvertLevelY){ // ~26% to convert on 0Y level (default)
                         spider.convertTo(ModMobs.ARMORED_SPIDER, false);
                     }
-                    canConvert = false;
                 }
+                canConvert = false;
             }
         }
     }

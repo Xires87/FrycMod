@@ -36,8 +36,8 @@ abstract class ZombieConvertMixin extends HostileEntity {
                     if(random.nextInt(i, 100 + i) < FrycMod.config.zombieToForgottenConvertLevelY){ // ~26% to convert on 0Y level (default)
                         zombie.convertTo(ModMobs.FORGOTTEN, true);
                     }
-                    canConvert = false;
                 }
+                canConvert = false;
             }
         }
     }

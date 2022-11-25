@@ -46,8 +46,8 @@ abstract class SkeletonConvertMixin extends AbstractSkeletonEntity {
                             skeleton.convertTo(ModMobs.UNDEAD_WARRIOR, true);
                         }
                     }
-                    canConvert = false;
                 }
+                canConvert = false;
             }
         }
     }

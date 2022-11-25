@@ -37,8 +37,8 @@ abstract class CreeperConvertMixin extends HostileEntity implements SkinOverlayO
                     if(random.nextInt(i, 100 + i) < FrycMod.config.creeperToCaveCreeperConvertLevelY){ // ~26% to convert on 0Y level (default)
                         creeper.convertTo(ModMobs.CAVE_CREEPER, false);
                     }
-                    canConvert = false;
                 }
+                canConvert = false;
             }
         }
     }
