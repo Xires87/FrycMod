@@ -105,6 +105,29 @@ public class FrycmodConfig implements ConfigData {
     @ConfigEntry.BoundedDiscrete(max = 300, min = -64)
     public int creeperToCaveCreeperConvertLevelY = 26;
 
+    //nether
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.Category("mobs")
+    @ConfigEntry.BoundedDiscrete(max = 100, min = 0)
+    public int witherSkeletonConvertChance = 11;
+
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.Category("mobs")
+    @ConfigEntry.BoundedDiscrete(max = 100, min = 0)
+    public int ghastConvertChance = 26;
+
+
+    //biomes
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.Category("mobs")
+    @ConfigEntry.BoundedDiscrete(max = 100, min = 0)
+    public int zombieToExplorerConvertChance = 75;
+
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.Category("mobs")
+    @ConfigEntry.BoundedDiscrete(max = 100, min = 0)
+    public int spiderToTropicalSpiderConvertChance = 75;
+
 
     //other
     @ConfigEntry.Category("other")

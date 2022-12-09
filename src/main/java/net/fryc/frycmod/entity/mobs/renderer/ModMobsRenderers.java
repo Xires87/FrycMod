@@ -22,5 +22,24 @@ public class ModMobsRenderers {
             return new CaveCreeperEntityRenderer(context);
         });
 
+
+        //biome variants
+        EntityRendererRegistry.register(ModMobs.EXPLORER, (context) -> {
+            return new ExplorerEntityRenderer(context);
+        });
+
+        EntityRendererRegistry.register(ModMobs.TROPICAL_SPIDER, (context) -> {
+            return new TropicalSpiderEntityRenderer(context);
+        });
+
+
+        //nether variants
+        EntityRendererRegistry.register(ModMobs.EXECUTIONER, (context) -> {
+            return new ExecutionerEntityRenderer(context);
+        });
+
+        EntityRendererRegistry.register(ModMobs.NIGHTMARE, (context) -> {
+            return new NightmareEntityRenderer(context);
+        });
     }
 }
