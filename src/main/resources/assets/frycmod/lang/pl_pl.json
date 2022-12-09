@@ -187,11 +187,19 @@
   "entity.frycmod.undead_warrior": "Nieumarły Wojownik",
   "entity.frycmod.forgotten": "Zapomniany",
   "entity.frycmod.cave_creeper": "Jaskiniowy Creeper",
+  "entity.frycmod.executioner": "Kat",
+  "entity.frycmod.explorer": "Odkrywca",
+  "entity.frycmod.nightmare": "Koszmar",
+  "entity.frycmod.tropical_spider": "Tropikalny Pająk",
 
   "item.frycmod.forgotten_spawn_egg": "Jajo przyzywające Zapomnianego",
   "item.frycmod.undead_warrior_spawn_egg": "Jajo przyzywające Nieumarłego Wojownika",
   "item.frycmod.armored_spider_spawn_egg": "Jajo przyzywające Czarnego Pająka",
   "item.frycmod.cave_creeper_spawn_egg": "Jajo przyzywające Jaskiniowego Creepera",
+  "item.frycmod.executioner_spawn_egg": "Jajo przyzywające Kata",
+  "item.frycmod.explorer_spawn_egg": "Jajo przyzywające Odkrywcę",
+  "item.frycmod.nightmare_spawn_egg": "Jajo przyzywające Koszmar",
+  "item.frycmod.tropical_spider_spawn_egg": "Jajo przyzywające Tropikalnego Pająka",
 
   "text.autoconfig.frycmod.title": "Konfiguracja Frycmod",
   "text.autoconfig.frycmod.category.recipes": "Przedmioty i Receptury",
@@ -249,6 +257,17 @@
 
   "text.autoconfig.frycmod.option.creeperToCaveCreeperConvertLevelY": "Przemień Creepery w Jaskinowe Creepery poniżej wybranego poziomu Y:",
   "text.autoconfig.frycmod.option.creeperToCaveCreeperConvertLevelY.@Tooltip": "Creepery mają szansę zmienić się w silniejszy wariant kiedy pojawiają się poniżej tego poziomu Y",
+
+  "text.autoconfig.frycmod.option.witherSkeletonConvertChance": "Szansa na zmienienie Witherowego Szkieleta w Kata",
+  "text.autoconfig.frycmod.option.witherSkeletonConvertChance.@Tooltip": "Na przykład, kiedy ta opcja jest ustawiona na 10, Witherowe Szkielety mają 10% szans na zmienienie się w Kata po pojawieniu się",
+  "text.autoconfig.frycmod.option.ghastConvertChance": "Szansa na zmienienie Ghasta w Koszmar",
+  "text.autoconfig.frycmod.option.ghastConvertChance.@Tooltip": "Na przykład, kiedy ta opcja jest ustawiona na 10, Ghasty mają 10% szans na zmienienie się w Koszmar po pojawieniu się",
+
+  "text.autoconfig.frycmod.option.zombieToExplorerConvertChance": "Szansa na zmienienie Zombie w Odkrywcę na bagnie, w dżungli lub w porośniętej jaskini:",
+  "text.autoconfig.frycmod.option.zombieToExplorerConvertChance.@Tooltip": "Na przykład, kiedy ta opcja jest ustawiona na 90, Zombie mają 90% szans na zmienienie się w Odkrywcę po pojawieniu się na jednym ze wspomnianych biomów",
+
+  "text.autoconfig.frycmod.option.spiderToTropicalSpiderConvertChance": "Szansa na zmienienie Pająka w Tropikalnego Pająka w dżungli:",
+  "text.autoconfig.frycmod.option.spiderToTropicalSpiderConvertChance.@Tooltip": "Na przykład, kiedy ta opcja jest ustawiona na 70, Pająki mają 70% szans na zmienienie się w Tropikalne Pająki po pojawieniu się na jednym ze wspomnianych biomów",
 
   "text.autoconfig.frycmod.option.playToolsAndArmorOnCraftSounds":  "Odtwórz dźwięk kucia kiedy gracz tworzy zbroję lub narzędzia [Wymagany Restart]",
   "text.autoconfig.frycmod.option.playIngotsFromFurnaceOnCraftSounds":  "Odtwórz dźwięk gaszenia (GORONCE!) kiedy gracz tworzy sztabki, samorodki lub bloki ze sztabek [Wymagany Restart]",

@@ -190,12 +190,19 @@
   "entity.frycmod.undead_warrior": "Undead Warrior",
   "entity.frycmod.forgotten": "Forgotten",
   "entity.frycmod.cave_creeper": "Cave Creeper",
+  "entity.frycmod.executioner": "Executioner",
+  "entity.frycmod.explorer": "Explorer",
+  "entity.frycmod.nightmare": "Nightmare",
+  "entity.frycmod.tropical_spider": "Tropical Spider",
 
   "item.frycmod.forgotten_spawn_egg": "Forgotten Spawn Egg",
   "item.frycmod.undead_warrior_spawn_egg": "Undead Warrior Spawn Egg",
   "item.frycmod.armored_spider_spawn_egg": "Black Spider Spawn Egg",
   "item.frycmod.cave_creeper_spawn_egg": "Cave Creeper Spawn Egg",
-
+  "item.frycmod.executioner_spawn_egg": "Executioner Spawn Egg",
+  "item.frycmod.explorer_spawn_egg": "Explorer Spawn Egg",
+  "item.frycmod.nightmare_spawn_egg": "Nightmare Spawn Egg",
+  "item.frycmod.tropical_spider_spawn_egg": "Tropical Spider Spawn Egg",
 
   "text.autoconfig.frycmod.title": "Frycmod Config",
   "text.autoconfig.frycmod.category.recipes": "Items and Recipes",
@@ -253,6 +260,18 @@
 
   "text.autoconfig.frycmod.option.creeperToCaveCreeperConvertLevelY": "Convert creepers to cave creepers under selected Y level:",
   "text.autoconfig.frycmod.option.creeperToCaveCreeperConvertLevelY.@Tooltip": "Creepers have a chance to convert into stronger variant when they spawn below this Y level",
+
+  "text.autoconfig.frycmod.option.witherSkeletonConvertChance": "Chance to convert Wither Skeleton to Executioner",
+  "text.autoconfig.frycmod.option.witherSkeletonConvertChance.@Tooltip": "For example, when set to 10, Wither Skeleton will have 10% chance to convert to Executioner after spawning",
+  "text.autoconfig.frycmod.option.ghastConvertChance": "Chance to convert Ghast to Nightmare",
+  "text.autoconfig.frycmod.option.ghastConvertChance.@Tooltip": "For example, when set to 10, Ghast will have 10% chance to convert to Nightmare after spawning",
+
+  "text.autoconfig.frycmod.option.zombieToExplorerConvertChance": "Chance to convert Zombie to Explorer in jungle, swamp or lush cave:",
+  "text.autoconfig.frycmod.option.zombieToExplorerConvertChance.@Tooltip": "For example, when set to 90, Zombie will have 90% chance to convert to Explorer after spawning on one of mentioned biomes",
+
+  "text.autoconfig.frycmod.option.spiderToTropicalSpiderConvertChance": "Chance to convert Spider to Tropical Spider in jungle:",
+  "text.autoconfig.frycmod.option.spiderToTropicalSpiderConvertChance.@Tooltip": "For example, when set to 70, Spider will have 70% chance to convert to Tropical Spider after spawning on one of mentioned biomes",
+  
 
   "text.autoconfig.frycmod.option.playToolsAndArmorOnCraftSounds":  "Play smithing sound when player crafts tools and armor [Restart required]",
   "text.autoconfig.frycmod.option.playIngotsFromFurnaceOnCraftSounds":  "Play extinguish sound when player crafts ingots, nuggets and blocks from ingots [Restart required]",
