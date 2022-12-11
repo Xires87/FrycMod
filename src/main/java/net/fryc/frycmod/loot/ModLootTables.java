@@ -17,6 +17,8 @@ public class ModLootTables {
             = new Identifier("minecraft", "entities/guardian");
     private static final Identifier ELDER_GUARDIAN
             = new Identifier("minecraft", "entities/elder_guardian");
+    private static final Identifier WITHER_SKELETON
+            = new Identifier("minecraft", "entities/wither_skeleton");
     private static final Identifier WARDEN
             = new Identifier("minecraft", "entities/warden");
 
@@ -42,6 +44,17 @@ public class ModLootTables {
                         .conditionally(RandomChanceLootCondition.builder(0.025f))
                         .with(ItemEntry.builder(ModItems.RED_CRYSTALS))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+                tableBuilder.pool(poolBuilder.build());
+            }
+        });
+
+        LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
+            if(WITHER_SKELETON.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.80f))
+                        .with(ItemEntry.builder(ModItems.WITHER_BONE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 2.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
         });
