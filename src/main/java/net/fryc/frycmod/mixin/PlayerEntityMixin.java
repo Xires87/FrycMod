@@ -54,13 +54,13 @@ abstract class PlayerEntityMixin extends LivingEntity {
             }
             else {
                 //gives wither to enemy if player has wither armor (or permanent immunity)
-                if(player.getActiveStatusEffects().get(ModEffects.IMMUNITY).getDuration() > 10000) spiderEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 180, 0));
+                if(player.getActiveStatusEffects().get(ModEffects.IMMUNITY).getDuration() > 1000000) spiderEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 180, 0));
             }
         }
         else if(!source.isProjectile() && !source.isExplosive() && source.getAttacker() instanceof LivingEntity livingEntity){
             if(player.hasStatusEffect(ModEffects.IMMUNITY)){
                 //gives wither to enemy if player has wither armor (or permanent immunity)
-                if(player.getActiveStatusEffects().get(ModEffects.IMMUNITY).getDuration() > 10000) livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 180, 0));
+                if(player.getActiveStatusEffects().get(ModEffects.IMMUNITY).getDuration() > 1000000) livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 180, 0));
             }
             int multiplier = (int) (amount * ((21 - player.getArmor())- toughness));
             if(multiplier > 2){

@@ -9,7 +9,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.world.World;
 
 
@@ -39,11 +38,11 @@ public class ModArmorItems extends ArmorItem {
     }
 
     private void addArmorEffects(PlayerEntity player) {
-        player.addStatusEffect(new StatusEffectInstance(ModEffects.IMMUNITY, 100000, 0));
+        player.addStatusEffect(new StatusEffectInstance(ModEffects.IMMUNITY, 10000000, 0));
     }
 
     private void removeArmorEffects(PlayerEntity player) {
-        if(player.getActiveStatusEffects().get(ModEffects.IMMUNITY).getDuration() > 10000) player.removeStatusEffect(ModEffects.IMMUNITY);
+        if(player.getActiveStatusEffects().get(ModEffects.IMMUNITY).getDuration() > 1000000) player.removeStatusEffect(ModEffects.IMMUNITY);
     }
     private boolean hasCorrectArmor(PlayerEntity player){
         return player.getInventory().getArmorStack(0).isIn(ModItemTags.WITHER_ARMORS) && player.getInventory().getArmorStack(1).isIn(ModItemTags.WITHER_ARMORS)
