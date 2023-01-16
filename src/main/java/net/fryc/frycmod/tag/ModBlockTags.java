@@ -2,9 +2,9 @@ package net.fryc.frycmod.tag;
 
 import net.fryc.frycmod.FrycMod;
 import net.minecraft.block.Block;
-import net.minecraft.tag.TagKey;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 public class ModBlockTags {
     public static final TagKey<Block> TABLES = ModBlockTags.register("tables");
@@ -17,6 +17,6 @@ public class ModBlockTags {
     }
 
     private static TagKey<Block> register(String id) {
-        return TagKey.of(Registry.BLOCK_KEY, new Identifier(FrycMod.MOD_ID, id));
+        return TagKey.of(RegistryKeys.BLOCK, new Identifier(FrycMod.MOD_ID, id));
     }
 }

@@ -8,8 +8,9 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.Potions;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 public class ModPotions {
     public static Potion WITHER_POTION;
@@ -21,7 +22,7 @@ public class ModPotions {
     public static Potion STRONG_HEALTH_BOOST_POTION;
 
     public static Potion registerPotion(String name, Potion potion) {
-        return Registry.register(Registry.POTION, new Identifier(FrycMod.MOD_ID, name),
+        return Registry.register(Registries.POTION, new Identifier(FrycMod.MOD_ID, name),
                 potion);
     }
 

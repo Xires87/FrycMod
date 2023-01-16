@@ -45,20 +45,13 @@ public class ModForgingScreen<T extends ModForgingScreenHandler> extends Handled
     }
 
     protected void drawBackground(MatrixStack matrices, float delta, int mouseX, int mouseY) {
-        RenderSystem.setShader(GameRenderer::getPositionTexShader);
+        RenderSystem.setShader(GameRenderer::getPositionTexProgram);
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
         RenderSystem.setShaderTexture(0, this.texture);
         int i = (this.width - this.backgroundWidth) / 2;
         int j = (this.height - this.backgroundHeight) / 2;
         this.drawTexture(matrices, i, j, 0, 0, this.backgroundWidth, this.backgroundHeight);
         this.drawTexture(matrices, i + 59, j + 20, 0, this.backgroundHeight + (((ModForgingScreenHandler)this.handler).getSlot(0).hasStack() ? 0 : 16), 110, 16);
-        /* draws red X on arrow
-        if ((((ModForgingScreenHandler)this.handler).getSlot(0).hasStack() || ((ModForgingScreenHandler)this.handler).getSlot(1).hasStack()) && !((ModForgingScreenHandler)this.handler).getSlot(2).hasStack()) {
-            this.drawTexture(matrices, i + 99, j + 45, this.backgroundWidth, 0, 28, 21);
-        }
-
-         */
-
     }
 
     public void onPropertyUpdate(ScreenHandler handler, int property, int value) {

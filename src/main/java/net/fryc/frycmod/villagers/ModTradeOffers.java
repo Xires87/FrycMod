@@ -14,10 +14,10 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.item.map.MapIcon;
-import net.minecraft.tag.StructureTags;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.tag.StructureTags;
 import net.minecraft.util.Util;
 import net.minecraft.util.math.random.Random;
-import net.minecraft.util.registry.Registry;
 import net.minecraft.village.*;
 
 import java.util.List;
@@ -99,7 +99,7 @@ public class ModTradeOffers extends TradeOffers{
 
         @Override
         public TradeOffer create(Entity entity, Random random) {
-            List list = Registry.ENCHANTMENT.stream().filter(Enchantment::isAvailableForEnchantedBookOffer).collect(Collectors.toList());
+            List list = Registries.ENCHANTMENT.stream().filter(Enchantment::isAvailableForEnchantedBookOffer).collect(Collectors.toList());
             Enchantment enchantment = (Enchantment)list.get(random.nextInt(list.size()));
             //int i = MathHelper.nextInt(random, enchantment.getMinLevel(), enchantment.getMaxLevel()); <--- original
             int i = enchantment.getMaxLevel();

@@ -16,8 +16,7 @@ import net.fryc.frycmod.painting.ModPaintings;
 import net.fryc.frycmod.potions.ModPotions;
 import net.fryc.frycmod.screen.ModScreenHandlers;
 import net.fryc.frycmod.villagers.ModTradeOffers;
-import net.fryc.frycmod.world.feature.ModConfiguredFeatures;
-import net.fryc.frycmod.world.gen.ModOreGeneration;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,13 +26,9 @@ public class FrycMod implements ModInitializer {
 
 	public static FrycmodConfig config;
 
+
 	@Override
 	public void onInitialize() {
-		//ore
-		ModConfiguredFeatures.registerConfiguredFeatures();
-		ModOreGeneration.generateOre();
-
-
 		//config
 		AutoConfig.register(FrycmodConfig.class, GsonConfigSerializer::new);
 		config = AutoConfig.getConfigHolder(FrycmodConfig.class).getConfig();
