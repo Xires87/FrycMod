@@ -204,6 +204,16 @@ public class FrycMod implements ModInitializer {
 					entries.add(ModItems.ECHO_ANCIENT_REMAINS);
 					entries.add(ModBlocks.ANCIENT_FOSSIL);
 
+					//spawn eggs
+					entries.add(ModSpawnEggs.ARMORED_SPIDER_SPAWN_EGG);
+					entries.add(ModSpawnEggs.CAVE_CREEPER_SPAWN_EGG);
+					entries.add(ModSpawnEggs.FORGOTTEN_SPAWN_EGG);
+					entries.add(ModSpawnEggs.UNDEAD_WARRIOR_SPAWN_EGG);
+					entries.add(ModSpawnEggs.EXPLORER_SPAWN_EGG);
+					entries.add(ModSpawnEggs.TROPICAL_SPIDER_SPAWN_EGG);
+					entries.add(ModSpawnEggs.EXECUTIONER_SPAWN_EGG);
+					entries.add(ModSpawnEggs.NIGHTMARE_SPAWN_EGG);
+
 				})
 				.build();
 	}
