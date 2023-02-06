@@ -91,6 +91,7 @@
   "block.frycmod.iron_table": "Iron Smithing Table",
   "block.frycmod.gold_table": "Golden Smithing Table",
   "block.frycmod.diamond_table": "Diamond Smithing Table",
+  "block.frycmod.piglins_forge": "Piglins Forge",
 
 
   "item.frycmod.bone_helmet": "Bone Helmet",
@@ -194,6 +195,10 @@
   "entity.frycmod.explorer": "Explorer",
   "entity.frycmod.nightmare": "Nightmare",
   "entity.frycmod.tropical_spider": "Tropical Spider",
+  "entity.frycmod.frozen_zombie": "Frozen Zombie",
+  "entity.frycmod.infected_piglin": "Infected Piglin",
+  "entity.frycmod.infected_piglin_brute": "Infected Piglin Brute",
+
 
   "item.frycmod.forgotten_spawn_egg": "Forgotten Spawn Egg",
   "item.frycmod.undead_warrior_spawn_egg": "Undead Warrior Spawn Egg",
@@ -201,11 +206,15 @@
   "item.frycmod.cave_creeper_spawn_egg": "Cave Creeper Spawn Egg",
   "item.frycmod.executioner_spawn_egg": "Executioner Spawn Egg",
   "item.frycmod.explorer_spawn_egg": "Explorer Spawn Egg",
+  "item.frycmod.frozen_zombie_spawn_egg": "Frozen Zombie Spawn Egg",
   "item.frycmod.nightmare_spawn_egg": "Nightmare Spawn Egg",
   "item.frycmod.tropical_spider_spawn_egg": "Tropical Spider Spawn Egg",
+  "item.frycmod.infected_piglin_spawn_egg": "Infected Piglin Spawn Egg",
+  "item.frycmod.infected_piglin_brute_spawn_egg": "Infected Piglin Brute Spawn Egg",
 
   "text.autoconfig.frycmod.title": "Frycmod Config",
   "text.autoconfig.frycmod.category.recipes": "Items and Recipes",
+  "text.autoconfig.frycmod.category.tooltips": "Tooltips",
   "text.autoconfig.frycmod.category.bleeding": "Bleeding",
   "text.autoconfig.frycmod.category.trades": "Trade Offers",
   "text.autoconfig.frycmod.category.mobs": "Mobs",
@@ -213,6 +222,7 @@
 
   "text.autoconfig.frycmod.option.isTooltipsEnabled": "Add tooltips for items, that require smithing table to craft [Restart Required]",
   "text.autoconfig.frycmod.option.isTooltipsEnabled.@Tooltip": "Adds tooltips telling you which smithing table is required to craft item",
+  "text.autoconfig.frycmod.option.isTooltipsForGoldenItemsEnabled": "Add tooltips for items that can be used to trade with piglins [Restart Required]",
   "text.autoconfig.frycmod.option.isCopperRecipeBlocked": "Block copper recipes [Restart required]",
   "text.autoconfig.frycmod.option.isCopperRecipeBlocked.@Tooltip": "Copper items cannot be crafted if you don't stand near Copper Smithing Table (or better smithing table)",
   "text.autoconfig.frycmod.option.isIronRecipeBlocked": "Block iron recipes [Restart required]",
@@ -221,8 +231,8 @@
   "text.autoconfig.frycmod.option.isGoldRecipeBlocked.@Tooltip": "Golden items cannot be crafted if you don't stand near Golden Smithing Table (or better smithing table)",
   "text.autoconfig.frycmod.option.isDiamondRecipeBlocked": "Block diamond recipes [Restart required]",
   "text.autoconfig.frycmod.option.isDiamondRecipeBlocked.@Tooltip": "Diamond items cannot be crafted if you don't stand near Diamond Smithing Table",
-  "text.autoconfig.frycmod.option.isMiscRecipeBlocked": "Block ingots recipes [Restart required]",
-  "text.autoconfig.frycmod.option.isMiscRecipeBlocked.@Tooltip": "Nuggets, ingots and blocks from ingots cannot be crafted if you don't stand near Furnace or Blast Furnace",
+  "text.autoconfig.frycmod.option.isVanillaGoldenRecipeBlocked": "Block vanilla golden recipes [Restart required]",
+  "text.autoconfig.frycmod.option.isVanillaGoldenRecipeBlocked.@Tooltip": "Vanilla golden items cannot be crafted if you don't stand near Piglins Forge",
 
   "text.autoconfig.frycmod.option.modifyTradeOffersForLibrarian": "Modify trade offers for Librarian [Restart required]",
   "text.autoconfig.frycmod.option.modifyTradeOffersForToolsmith": "Modify trade offers for Toolsmith [Restart required]",
@@ -271,9 +281,17 @@
 
   "text.autoconfig.frycmod.option.spiderToTropicalSpiderConvertChance": "Chance to convert Spider to Tropical Spider in jungle:",
   "text.autoconfig.frycmod.option.spiderToTropicalSpiderConvertChance.@Tooltip": "For example, when set to 70, Spider will have 70% chance to convert to Tropical Spider after spawning on one of mentioned biomes",
-  
+
+  "text.autoconfig.frycmod.option.zombieToFrozenZombieConvertChance": "Chance to convert Zombie to Frozen Zombie on snowy biomes:",
+  "text.autoconfig.frycmod.option.zombieToFrozenZombieConvertChance.@Tooltip": "For example, when set to 90, Zombie will have 90% chance to convert to Frozen Zombie after spawning on one of mentioned biomes",
+
+  "text.autoconfig.frycmod.option.piglinConvertChance": "Chance to convert Piglin to Infected Piglin",
+  "text.autoconfig.frycmod.option.piglinConvertChance.@Tooltip": "For example, when set to 10, Piglin will have 10% chance to convert to Infected Piglin after spawning",
+
+  "text.autoconfig.frycmod.option.piglinBruteConvertChance": "Chance to convert Piglin Brute to Infected Piglin Brute",
+  "text.autoconfig.frycmod.option.piglinBruteConvertChance.@Tooltip": "For example, when set to 10, Piglin Brute will have 10% chance to convert to Infected Piglin Brute after spawning",
 
   "text.autoconfig.frycmod.option.playToolsAndArmorOnCraftSounds":  "Play smithing sound when player crafts tools and armor [Restart required]",
-  "text.autoconfig.frycmod.option.playIngotsFromFurnaceOnCraftSounds":  "Play extinguish sound when player crafts ingots, nuggets and blocks from ingots [Restart required]",
+  "text.autoconfig.frycmod.option.playIngotsFromFurnaceOnCraftSounds":  "Play extinguish sound when player smelts ingots and nuggets [Restart required]",
   "text.autoconfig.frycmod.option.playBlocksOnCraftSounds":  "Play block breaking sound when player crafts blocks (not done yet, not all blocks have sound) [Restart required]"
 }

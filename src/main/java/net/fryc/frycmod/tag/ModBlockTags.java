@@ -11,6 +11,7 @@ public class ModBlockTags {
     public static final TagKey<Block> IRON_TABLES = ModBlockTags.register("iron_tables");
     public static final TagKey<Block> GOLDEN_TABLES = ModBlockTags.register("golden_tables");
     public static final TagKey<Block> DIAMOND_TABLES = ModBlockTags.register("diamond_tables");
+    public static final TagKey<Block> PIGLINS_FORGE = ModBlockTags.register("piglins_forge");
     public static final TagKey<Block> FURNACES_FOR_INGOTS = ModBlockTags.register("furnaces_for_ingots");
 
     private ModBlockTags() {

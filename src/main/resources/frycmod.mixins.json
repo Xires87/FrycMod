@@ -21,7 +21,9 @@
     "SkeletonConvertMixin",
     "SpiderConvertMixin",
     "CreeperConvertMixin",
-    "VillagerEntityMixin"
+    "VillagerEntityMixin",
+    "PiglinConvertMixin",
+    "PiglinBruteConvertMixin"
   ],
   "client": [
   ],

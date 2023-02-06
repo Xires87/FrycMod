@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "frycmod:ancient_fossil"
+    "frycmod:ancient_fossil",
+    "frycmod:piglins_forge"
   ]
 }

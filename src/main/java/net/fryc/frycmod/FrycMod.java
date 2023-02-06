@@ -10,7 +10,7 @@ import net.fryc.frycmod.crafting.CraftingRules;
 import net.fryc.frycmod.effects.ModEffects;
 import net.fryc.frycmod.enchantments.ModEnchantments;
 import net.fryc.frycmod.entity.mobs.ModMobs;
-import net.fryc.frycmod.entity.mobs.eggs.ModSpawnEggs;
+import net.fryc.frycmod.entity.mobs.ModSpawnEggs;
 import net.fryc.frycmod.items.ModItems;
 import net.fryc.frycmod.loot.ModLootTables;
 import net.fryc.frycmod.painting.ModPaintings;
@@ -71,6 +71,7 @@ public class FrycMod implements ModInitializer {
 					entries.add(ModBlocks.IRON_TABLE);
 					entries.add(ModBlocks.GOLD_TABLE);
 					entries.add(ModBlocks.DIAMOND_TABLE);
+					entries.add(ModBlocks.PIGLINS_FORGE);
 
 					//hammers
 					entries.add(ModItems.COPPER_HAMMER);
@@ -211,8 +212,11 @@ public class FrycMod implements ModInitializer {
 					entries.add(ModSpawnEggs.UNDEAD_WARRIOR_SPAWN_EGG);
 					entries.add(ModSpawnEggs.EXPLORER_SPAWN_EGG);
 					entries.add(ModSpawnEggs.TROPICAL_SPIDER_SPAWN_EGG);
+					entries.add(ModSpawnEggs.FROZEN_ZOMBIE_SPAWN_EGG);
 					entries.add(ModSpawnEggs.EXECUTIONER_SPAWN_EGG);
 					entries.add(ModSpawnEggs.NIGHTMARE_SPAWN_EGG);
+					entries.add(ModSpawnEggs.INFECTED_PIGLIN_SPAWN_EGG);
+					entries.add(ModSpawnEggs.INFECTED_PIGLIN_BRUTE_SPAWN_EGG);
 
 				})
 				.build();

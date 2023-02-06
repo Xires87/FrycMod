@@ -8,10 +8,13 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 public class FrycmodConfig implements ConfigData {
 
     //recipes
-    @ConfigEntry.Category("recipes")
+    @ConfigEntry.Category("tooltips")
     @ConfigEntry.Gui.Tooltip
     @ConfigEntry.Gui.RequiresRestart
     public boolean isTooltipsEnabled = true;
+    @ConfigEntry.Category("tooltips")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isTooltipsForGoldenItemsEnabled = true;
     @ConfigEntry.Category("recipes")
     @ConfigEntry.Gui.Tooltip
     @ConfigEntry.Gui.RequiresRestart
@@ -31,7 +34,7 @@ public class FrycmodConfig implements ConfigData {
     @ConfigEntry.Category("recipes")
     @ConfigEntry.Gui.Tooltip
     @ConfigEntry.Gui.RequiresRestart
-    public boolean isMiscRecipeBlocked = true;
+    public boolean isVanillaGoldenRecipeBlocked = true;
 
 
     //trades
@@ -116,12 +119,27 @@ public class FrycmodConfig implements ConfigData {
     @ConfigEntry.BoundedDiscrete(max = 100, min = 0)
     public int ghastConvertChance = 26;
 
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.Category("mobs")
+    @ConfigEntry.BoundedDiscrete(max = 100, min = 0)
+    public int piglinConvertChance = 29;
+
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.Category("mobs")
+    @ConfigEntry.BoundedDiscrete(max = 100, min = 0)
+    public int piglinBruteConvertChance = 39;
+
 
     //biomes
     @ConfigEntry.Gui.Tooltip
     @ConfigEntry.Category("mobs")
     @ConfigEntry.BoundedDiscrete(max = 100, min = 0)
     public int zombieToExplorerConvertChance = 75;
+
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.Category("mobs")
+    @ConfigEntry.BoundedDiscrete(max = 100, min = 0)
+    public int zombieToFrozenZombieConvertChance = 80;
 
     @ConfigEntry.Gui.Tooltip
     @ConfigEntry.Category("mobs")
