@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "frycmod:item/wither_chestplate",
-    "layer1": "frycmod:item/wither_chestplate_overlay",
-    "layer2": "frycmod:item/warden_chestplate_overlay"
-  }
-}

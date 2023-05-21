@@ -15,6 +15,5 @@ public class ModPaintings {
     }
 
     public static void registerPaintings() {
-        FrycMod.LOGGER.info("Registering Paintings for " + FrycMod.MOD_ID);
     }
 }

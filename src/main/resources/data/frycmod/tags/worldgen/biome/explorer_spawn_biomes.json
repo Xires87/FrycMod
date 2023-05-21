@@ -1,8 +1,0 @@
-{
-  "replcae": false,
-  "values": [
-    "#minecraft:is_jungle",
-    "#minecraft:has_closer_water_fog",
-    "minecraft:lush_caves"
-  ]
-}

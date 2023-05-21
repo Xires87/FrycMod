@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "minecraft:leather_boots",
-    "frycmod:bone_boots",
-    "frycmod:wither_boots",
-    "frycmod:warden_boots"
-  ]
-}

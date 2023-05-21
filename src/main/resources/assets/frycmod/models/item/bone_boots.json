@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "frycmod:item/bone_boots",
-    "layer1": "frycmod:item/bone_boots_overlay"
-  }
-}

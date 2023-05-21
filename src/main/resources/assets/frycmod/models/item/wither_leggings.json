@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "frycmod:item/wither_leggings",
-    "layer1": "frycmod:item/wither_leggings_overlay"
-  }
-}

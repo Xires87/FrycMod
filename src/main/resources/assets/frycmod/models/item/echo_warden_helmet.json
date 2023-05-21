@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "frycmod:item/wither_helmet",
-    "layer1": "frycmod:item/wither_helmet_overlay",
-    "layer2": "frycmod:item/echo_warden_helmet_overlay"
-  }
-}

@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Frycmod",
-  "description": "Adds new tools, armors, potions, status effects, enchantments, new ore and smithing tables required for crafting",
+  "description": "",
   "authors": [
     "Wookash Fryc"
   ],
@@ -38,17 +38,9 @@
     "fabric-api": "*",
     "minecraft": "~1.19",
     "java": ">=17",
-    "craftingmanipulator": ">=2.0.1",
     "cloth-config": ">=9.0.94"
   },
   "suggests": {
     "another-mod": "*"
-  },
-  "breaks": {
-    "hammersandtables": "*",
-    "endercurse": "*",
-    "imbleeding": "*",
-    "threepotions": "*",
-    "frycmobvariants": "*"
   }
 }
