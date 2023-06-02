@@ -1,7 +1,6 @@
 package net.fryc.frycmod.spagyria_haemorrhage;
 
 
-import net.fryc.frycmod.FrycMod;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potion;
@@ -27,7 +26,7 @@ public class SpagyriaPotions {
 
     public static void registerSpagyriaPotions() {
         if(net.fryc.imbleeding.effects.ModEffects.BLEED_EFFECT != null){
-            FrycMod.LOGGER.warn("Registering potions!");
+            //FrycMod.LOGGER.warn("Registering potions!");
             BLEEDING_POTION = registerPotion("bleeding_potion", new Potion(new StatusEffectInstance(net.fryc.imbleeding.effects.ModEffects.BLEED_EFFECT, 2400, 0)));
             LONG_BLEEDING_POTION = registerPotion("long_bleeding_potion", new Potion(new StatusEffectInstance(net.fryc.imbleeding.effects.ModEffects.BLEED_EFFECT, 4800, 0)));
             STRONG_BLEEDING_POTION = registerPotion("strong_bleeding_potion", new Potion(new StatusEffectInstance(net.fryc.imbleeding.effects.ModEffects.BLEED_EFFECT, 1000, 1)));
