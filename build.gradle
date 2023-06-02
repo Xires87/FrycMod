@@ -36,7 +36,7 @@ dependencies {
 
 	//modImplementation 'com.github.Xires87:ScrollsAndCurses:2.0.0'
 	modImplementation 'com.github.Xires87:CraftingManipulator:2.0.1'
-	modImplementation 'com.github.Xires87:Haemorrhage:2.0.1'
+	modImplementation 'com.github.Xires87:Haemorrhage:2.0.4'
 	modImplementation 'com.github.Xires87:MobVariants:2.2.1'
 	modImplementation 'com.github.Xires87:Spagyria:2.1.0'
 	modImplementation 'com.github.Xires87:HammersAndSmithing:2.0.3'

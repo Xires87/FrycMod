@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Frycmod",
-  "description": "",
+  "description": "Adds compatibility between my other mods",
   "authors": [
     "Wookash Fryc"
   ],
