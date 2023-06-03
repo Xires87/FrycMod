@@ -30,16 +30,17 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modApi "me.shedaniel.cloth:cloth-config-fabric:9.0.94"
-
-	modApi "com.terraformersmc:modmenu:5.0.2"
+	modApi("me.shedaniel.cloth:cloth-config-fabric:8.2.88") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
+	modApi "com.terraformersmc:modmenu:4.1.0"
 
 	//modImplementation 'com.github.Xires87:ScrollsAndCurses:2.0.0'
-	modImplementation 'com.github.Xires87:CraftingManipulator:2.0.1'
-	modImplementation 'com.github.Xires87:Haemorrhage:2.0.4'
-	modImplementation 'com.github.Xires87:MobVariants:2.2.1'
-	modImplementation 'com.github.Xires87:Spagyria:2.1.0'
-	modImplementation 'com.github.Xires87:HammersAndSmithing:2.0.3'
+	modImplementation 'com.github.Xires87:CraftingManipulator:1.0.2'
+	modImplementation 'com.github.Xires87:Haemorrhage:1.0.4'
+	modImplementation 'com.github.Xires87:MobVariants:1.2.1'
+	modImplementation 'com.github.Xires87:Spagyria:1.1.0'
+	modImplementation 'com.github.Xires87:HammersAndSmithing:1.0.9'
 
 
 	// Uncomment the following line to enable the deprecated Fabric API modules. 

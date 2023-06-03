@@ -5,9 +5,8 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potion;
 import net.minecraft.recipe.BrewingRecipeRegistry;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class SpagyriaPotions {
 
@@ -20,7 +19,7 @@ public class SpagyriaPotions {
     public static Potion STRONG_HEALTH_LOSS_POTION;
 
     private static Potion registerPotion(String name, Potion potion) {
-        return (Potion)Registry.register(Registries.POTION, new Identifier(net.fryc.threepotions.ThreePotions.MOD_ID, name),
+        return (Potion) Registry.register(Registry.POTION, new Identifier(net.fryc.threepotions.ThreePotions.MOD_ID, name),
                 potion);
     }
 

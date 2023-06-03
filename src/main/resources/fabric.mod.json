@@ -38,7 +38,7 @@
     "fabric-api": "*",
     "minecraft": "~1.19",
     "java": ">=17",
-    "cloth-config": ">=9.0.94"
+    "cloth-config": ">=8.0.84"
   },
   "suggests": {
     "another-mod": "*"
