@@ -1,19 +1,14 @@
 package net.fryc.frycmod.unused;
 
 
-import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterial;
 
-
-
-public class ModArmorItems extends ArmorItem {
-
+public class ModArmorItems /*extends ArmorItem*/ {
+ /*
     public ModArmorItems(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
         super(material, slot, settings);
     }
 
-    /*
+
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
         if(!world.isClient()) {
