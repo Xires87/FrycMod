@@ -29,5 +29,8 @@
 
   "item.minecraft.tipped_arrow.effect.health_loss_potion": "Arrow of Infirmity",
   "item.minecraft.tipped_arrow.effect.long_health_loss_potion": "Arrow of Infirmity",
-  "item.minecraft.tipped_arrow.effect.strong_health_loss_potion": "Arrow of Infirmity"
+  "item.minecraft.tipped_arrow.effect.strong_health_loss_potion": "Arrow of Infirmity",
+
+  "text.autoconfig.imbleeding.option.enableSpagyriaAndHaemorrhageCompatibility": "Enable Spagyria and Hammers and Smithing compatibility",
+  "text.autoconfig.imbleeding.option.enableHmrsNSmithingAndMobVariantsCompatibility": "Enable Mob Variants and Hammers and Smithing compatibility"
 }

@@ -29,5 +29,8 @@
 
   "item.minecraft.tipped_arrow.effect.health_loss_potion": "Strzała Niemocy",
   "item.minecraft.tipped_arrow.effect.long_health_loss_potion": "Strzała Niemocy",
-  "item.minecraft.tipped_arrow.effect.strong_health_loss_potion": "Strzała Niemocy"
+  "item.minecraft.tipped_arrow.effect.strong_health_loss_potion": "Strzała Niemocy",
+
+  "text.autoconfig.imbleeding.option.enableSpagyriaAndHaemorrhageCompatibility": "Włącz kompatybilność pomiędzy Spagyria i Hammers and Smithing",
+  "text.autoconfig.imbleeding.option.enableHmrsNSmithingAndMobVariantsCompatibility": "Włącz kompatybilność pomiędzy Mob Variants i Hammers and Smithing"
 }
