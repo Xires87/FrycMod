@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.1-SNAPSHOT'
+	id 'fabric-loom' version '1.2-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -30,15 +30,16 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modApi "me.shedaniel.cloth:cloth-config-fabric:10.0.96"
-	modApi "com.terraformersmc:modmenu:6.1.0-rc.2"
+	modApi "me.shedaniel.cloth:cloth-config-fabric:11.0.99"
 
-	//modImplementation 'com.github.Xires87:ScrollsAndCurses:2.0.0'
-	modImplementation 'com.github.Xires87:CraftingManipulator:3.0.0'
-	modImplementation 'com.github.Xires87:Haemorrhage:3.0.4'
-	modImplementation 'com.github.Xires87:MobVariants:3.2.1'
-	modImplementation 'com.github.Xires87:Spagyria:3.1.0'
-	modImplementation 'com.github.Xires87:HammersAndSmithing:3.0.1'
+	modApi "com.terraformersmc:modmenu:7.0.1"
+
+	//modImplementation 'com.github.Xires87:ScrollsAndCurses:4.0.0'
+	modImplementation 'com.github.Xires87:CraftingManipulator:4.0.0'
+	modImplementation 'com.github.Xires87:Haemorrhage:4.0.5'
+	modImplementation 'com.github.Xires87:MobVariants:4.2.1'
+	modImplementation 'com.github.Xires87:Spagyria:4.1.0'
+	modImplementation 'com.github.Xires87:HammersAndSmithing:4.0.0'
 
 
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
