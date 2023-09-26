@@ -34,7 +34,7 @@ dependencies {
 
 	modApi "com.terraformersmc:modmenu:5.0.2"
 
-	//modImplementation 'com.github.Xires87:ScrollsAndCurses:2.0.0'
+	modImplementation 'com.github.Xires87:ScrollsAndCurses:2.0.1'
 	modImplementation 'com.github.Xires87:CraftingManipulator:2.0.1'
 	modImplementation 'com.github.Xires87:Haemorrhage:2.0.4'
 	modImplementation 'com.github.Xires87:MobVariants:2.2.1'
