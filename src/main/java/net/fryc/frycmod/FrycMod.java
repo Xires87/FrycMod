@@ -7,9 +7,12 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.fryc.frycmod.config.FrycmodConfig;
 import net.fryc.frycmod.mobvar_hmrnsmith.WeaponsForMobs;
 import net.fryc.frycmod.painting.ModPaintings;
-import net.fryc.frycmod.spagyria_haemorrhage.SpagyriaPotions;
+import net.fryc.frycmod.rcstaffs_scrolls.ShouldTeleportRandomly;
+import net.fryc.frycmod.spagyria.HaemorrhagePotions;
+import net.fryc.frycmod.spagyria.ScrollsAndCursesPotions;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
+import net.minecraft.server.network.ServerPlayerEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,6 +23,7 @@ public class FrycMod implements ModInitializer {
 	public static FrycmodConfig config;
 
 	private static boolean mobvar_hmrnsmith_compat = false;
+	private static boolean rcstaffs_scrollsncurses_compat = false;
 
 
 
@@ -34,12 +38,21 @@ public class FrycMod implements ModInitializer {
 
 		ModPaintings.registerPaintings();
 
-		if(fabric.isModLoaded("threepotions") && fabric.isModLoaded("imbleeding") && config.enableSpagyriaAndHaemorrhageCompatibility){
-			SpagyriaPotions.registerSpagyriaPotions();
+		if(fabric.isModLoaded("threepotions")){
+			if(fabric.isModLoaded("imbleeding") && config.enableSpagyriaAndHaemorrhageCompatibility){
+				HaemorrhagePotions.registerHaemorrhagePotions();
+			}
+			if(fabric.isModLoaded("frycscrolls") && config.enableSpagyriaAndScrollsAndCursesCompatibility){
+				ScrollsAndCursesPotions.registerScrollsAndCursesPotions();
+			}
 		}
 
 		if(fabric.isModLoaded("hammersandtables") && config.enableHmrsNSmithingAndMobVariantsCompatibility){
 			mobvar_hmrnsmith_compat = true;
+		}
+
+		if(fabric.isModLoaded("frycscrolls") && config.enableRecallStaffsAndScrollsAndCursesCompatibility){
+			rcstaffs_scrollsncurses_compat = true;
 		}
 
 
@@ -63,5 +76,12 @@ public class FrycMod implements ModInitializer {
 			return WeaponsForMobs.getAxeForExecutioner();
 		}
 		return new ItemStack(Items.STONE_AXE);
+	}
+
+	public static boolean recallStaffsScrollsAndCursesCompatibility(ServerPlayerEntity player) {
+		if(rcstaffs_scrollsncurses_compat){
+			return ShouldTeleportRandomly.hasChaoticTeleportationEffect(player);
+		}
+		return false;
 	}
 }
