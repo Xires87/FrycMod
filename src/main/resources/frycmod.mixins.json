@@ -6,7 +6,8 @@
   "mixins": [
     "CorsairEntityMixin",
     "ExecutionerEntityMixin",
-    "UndeadWarriorEntityMixin"
+    "UndeadWarriorEntityMixin",
+    "StaffItemMixin"
   ],
   "client": [
   ],

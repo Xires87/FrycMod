@@ -1,4 +1,4 @@
-package net.fryc.frycmod.spagyria_haemorrhage;
+package net.fryc.frycmod.spagyria;
 
 
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -9,7 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class SpagyriaPotions {
+public class HaemorrhagePotions {
 
     public static Potion BLEEDING_POTION;
     public static Potion LONG_BLEEDING_POTION;
@@ -24,7 +24,7 @@ public class SpagyriaPotions {
                 potion);
     }
 
-    public static void registerSpagyriaPotions() {
+    public static void registerHaemorrhagePotions() {
         if(net.fryc.imbleeding.effects.ModEffects.BLEED_EFFECT != null){
             //FrycMod.LOGGER.warn("Registering potions!");
             BLEEDING_POTION = registerPotion("bleeding_potion", new Potion(new StatusEffectInstance(net.fryc.imbleeding.effects.ModEffects.BLEED_EFFECT, 2400, 0)));
@@ -41,7 +41,7 @@ public class SpagyriaPotions {
         }
         else{
             net.fryc.imbleeding.effects.ModEffects.registerEffects();
-            registerSpagyriaPotions();
+            registerHaemorrhagePotions();
         }
     }
 
@@ -49,40 +49,40 @@ public class SpagyriaPotions {
 
         //health loss
         BrewingRecipeRegistry.registerPotionRecipe(net.fryc.threepotions.potions.ModPotions.HEALTH_BOOST_POTION, Items.FERMENTED_SPIDER_EYE,
-                SpagyriaPotions.HEALTH_LOSS_POTION);
+                HaemorrhagePotions.HEALTH_LOSS_POTION);
         BrewingRecipeRegistry.registerPotionRecipe(net.fryc.threepotions.potions.ModPotions.LONG_HEALTH_BOOST_POTION, Items.FERMENTED_SPIDER_EYE,
-                SpagyriaPotions.HEALTH_LOSS_POTION);
+                HaemorrhagePotions.HEALTH_LOSS_POTION);
         BrewingRecipeRegistry.registerPotionRecipe(net.fryc.threepotions.potions.ModPotions.STRONG_HEALTH_BOOST_POTION, Items.FERMENTED_SPIDER_EYE,
-                SpagyriaPotions.HEALTH_LOSS_POTION);
+                HaemorrhagePotions.HEALTH_LOSS_POTION);
 
-        BrewingRecipeRegistry.registerPotionRecipe(SpagyriaPotions.HEALTH_LOSS_POTION, Items.REDSTONE,
-                SpagyriaPotions.LONG_HEALTH_LOSS_POTION);
-        BrewingRecipeRegistry.registerPotionRecipe(SpagyriaPotions.STRONG_HEALTH_LOSS_POTION, Items.REDSTONE,
-                SpagyriaPotions.LONG_HEALTH_LOSS_POTION);
+        BrewingRecipeRegistry.registerPotionRecipe(HaemorrhagePotions.HEALTH_LOSS_POTION, Items.REDSTONE,
+                HaemorrhagePotions.LONG_HEALTH_LOSS_POTION);
+        BrewingRecipeRegistry.registerPotionRecipe(HaemorrhagePotions.STRONG_HEALTH_LOSS_POTION, Items.REDSTONE,
+                HaemorrhagePotions.LONG_HEALTH_LOSS_POTION);
 
-        BrewingRecipeRegistry.registerPotionRecipe(SpagyriaPotions.HEALTH_LOSS_POTION, Items.GLOWSTONE_DUST,
-                SpagyriaPotions.STRONG_HEALTH_LOSS_POTION);
+        BrewingRecipeRegistry.registerPotionRecipe(HaemorrhagePotions.HEALTH_LOSS_POTION, Items.GLOWSTONE_DUST,
+                HaemorrhagePotions.STRONG_HEALTH_LOSS_POTION);
         BrewingRecipeRegistry.registerPotionRecipe(LONG_HEALTH_LOSS_POTION, Items.GLOWSTONE_DUST,
-                SpagyriaPotions.STRONG_HEALTH_LOSS_POTION);
+                HaemorrhagePotions.STRONG_HEALTH_LOSS_POTION);
 
 
         //bleeding
         BrewingRecipeRegistry.registerPotionRecipe(net.fryc.threepotions.potions.ModPotions.WITHER_POTION, Items.FERMENTED_SPIDER_EYE,
-                SpagyriaPotions.BLEEDING_POTION);
+                HaemorrhagePotions.BLEEDING_POTION);
         BrewingRecipeRegistry.registerPotionRecipe(net.fryc.threepotions.potions.ModPotions.LONG_WITHER_POTION, Items.FERMENTED_SPIDER_EYE,
-                SpagyriaPotions.BLEEDING_POTION);
+                HaemorrhagePotions.BLEEDING_POTION);
         BrewingRecipeRegistry.registerPotionRecipe(net.fryc.threepotions.potions.ModPotions.STRONG_WITHER_POTION, Items.FERMENTED_SPIDER_EYE,
-                SpagyriaPotions.BLEEDING_POTION);
+                HaemorrhagePotions.BLEEDING_POTION);
 
-        BrewingRecipeRegistry.registerPotionRecipe(SpagyriaPotions.BLEEDING_POTION, Items.REDSTONE,
-                SpagyriaPotions.LONG_BLEEDING_POTION);
-        BrewingRecipeRegistry.registerPotionRecipe(SpagyriaPotions.STRONG_BLEEDING_POTION, Items.REDSTONE,
-                SpagyriaPotions.LONG_BLEEDING_POTION);
+        BrewingRecipeRegistry.registerPotionRecipe(HaemorrhagePotions.BLEEDING_POTION, Items.REDSTONE,
+                HaemorrhagePotions.LONG_BLEEDING_POTION);
+        BrewingRecipeRegistry.registerPotionRecipe(HaemorrhagePotions.STRONG_BLEEDING_POTION, Items.REDSTONE,
+                HaemorrhagePotions.LONG_BLEEDING_POTION);
 
-        BrewingRecipeRegistry.registerPotionRecipe(SpagyriaPotions.BLEEDING_POTION, Items.GLOWSTONE_DUST,
-                SpagyriaPotions.STRONG_BLEEDING_POTION);
+        BrewingRecipeRegistry.registerPotionRecipe(HaemorrhagePotions.BLEEDING_POTION, Items.GLOWSTONE_DUST,
+                HaemorrhagePotions.STRONG_BLEEDING_POTION);
         BrewingRecipeRegistry.registerPotionRecipe(LONG_BLEEDING_POTION, Items.GLOWSTONE_DUST,
-                SpagyriaPotions.STRONG_BLEEDING_POTION);
+                HaemorrhagePotions.STRONG_BLEEDING_POTION);
 
 
 
