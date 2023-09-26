@@ -33,7 +33,7 @@ dependencies {
 	modApi "me.shedaniel.cloth:cloth-config-fabric:10.0.96"
 	modApi "com.terraformersmc:modmenu:6.1.0-rc.2"
 
-	//modImplementation 'com.github.Xires87:ScrollsAndCurses:2.0.0'
+	modImplementation 'com.github.Xires87:ScrollsAndCurses:3.0.1'
 	modImplementation 'com.github.Xires87:CraftingManipulator:3.0.0'
 	modImplementation 'com.github.Xires87:Haemorrhage:3.0.4'
 	modImplementation 'com.github.Xires87:MobVariants:3.2.1'
