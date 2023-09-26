@@ -34,12 +34,13 @@ dependencies {
 
 	modApi "com.terraformersmc:modmenu:7.0.1"
 
-	//modImplementation 'com.github.Xires87:ScrollsAndCurses:4.0.0'
+	modImplementation 'com.github.Xires87:ScrollsAndCurses:4.0.1'
 	modImplementation 'com.github.Xires87:CraftingManipulator:4.0.0'
 	modImplementation 'com.github.Xires87:Haemorrhage:4.0.5'
 	modImplementation 'com.github.Xires87:MobVariants:4.2.1'
 	modImplementation 'com.github.Xires87:Spagyria:4.1.0'
 	modImplementation 'com.github.Xires87:HammersAndSmithing:4.0.0'
+	modImplementation 'com.github.Xires87:RecallStaffs:4.0.1'
 
 
 	// Uncomment the following line to enable the deprecated Fabric API modules. 

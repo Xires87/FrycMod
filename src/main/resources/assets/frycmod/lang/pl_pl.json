@@ -31,6 +31,23 @@
   "item.minecraft.tipped_arrow.effect.long_health_loss_potion": "Strzała Niemocy",
   "item.minecraft.tipped_arrow.effect.strong_health_loss_potion": "Strzała Niemocy",
 
-  "text.autoconfig.imbleeding.option.enableSpagyriaAndHaemorrhageCompatibility": "Włącz kompatybilność pomiędzy Spagyria i Hammers and Smithing",
+  "item.minecraft.potion.effect.chaotic_teleportation_potion": "Mikstura Teleportacji",
+  "item.minecraft.splash_potion.effect.chaotic_teleportation_potion": "Miotana Mikstura Teleportacji",
+  "item.minecraft.lingering_potion.effect.chaotic_teleportation_potion": "Trwała Mikstura Teleportacji",
+
+  "item.minecraft.potion.effect.long_chaotic_teleportation_potion": "Mikstura Teleportacji",
+  "item.minecraft.splash_potion.effect.long_chaotic_teleportation_potion": "Miotana Mikstura Teleportacji",
+  "item.minecraft.lingering_potion.effect.long_chaotic_teleportation_potion": "Trwała Mikstura Teleportacji",
+
+  "item.minecraft.potion.effect.strong_chaotic_teleportation_potion": "Mikstura Teleportacji",
+  "item.minecraft.splash_potion.effect.strong_chaotic_teleportation_potion": "Miotana Mikstura Teleportacji",
+  "item.minecraft.lingering_potion.effect.strong_chaotic_teleportation_potion": "Trwała Mikstura Teleportacji",
+
+  "item.minecraft.tipped_arrow.effect.chaotic_teleportation_potion": "Strzała Teleportacji",
+  "item.minecraft.tipped_arrow.effect.long_chaotic_teleportation_potion": "Strzała Teleportacji",
+  "item.minecraft.tipped_arrow.effect.strong_chaotic_teleportation_potion": "Strzała Teleportacji",
+
+  "text.autoconfig.imbleeding.option.enableSpagyriaAndHaemorrhageCompatibility": "Włącz kompatybilność pomiędzy Spagyria i Haemorrhage",
+  "text.autoconfig.imbleeding.option.enableSpagyriaAndScrollsAndCursesCompatibility": "Włącz kompatybilność pomiędzy Spagyria i Scrolls and Curses",
   "text.autoconfig.imbleeding.option.enableHmrsNSmithingAndMobVariantsCompatibility": "Włącz kompatybilność pomiędzy Mob Variants i Hammers and Smithing"
 }
